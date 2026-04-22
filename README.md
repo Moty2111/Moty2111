@@ -15,7 +15,7 @@
 <!-- ===== 3D SOLAR SYSTEM (STACK UNIVERSE) ===== -->
 <div align="center">
   <a href="https://stack-universe.vercel.app/claim">
-    <img src="YOUR_STACK_UNIVERSE_SVG_URL" alt="My 3D Code Universe" width="540" />
+    <img src="(https://stack-universe.vercel.app/universe/Moty2111)" alt="My 3D Code Universe" width="540" />
   </a>
 </div>
 <br/>
