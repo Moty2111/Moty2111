@@ -1,8 +1,7 @@
-name: 🐍 Generate Snake Animation
+name: 🐍 Ultimate Snake Game
 
 on:
   schedule:
-    # Запуск каждый день в полночь UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
@@ -10,11 +9,8 @@ on:
       - main
       - master
 
-# Специальные права для записи в репозиторий
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   generate:
@@ -28,35 +24,48 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: 🎨 Generate snake animations
+      - name: 🎨 Generate Snake (Neon Style)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=#8A2BE2&color_dots=#58A6FF,#3CAAFF,#2D8CFF,#1A6EFF,#0055FF&dark_bg=0D1117
-            dist/snake-dark.svg?color_snake=#A855F7&color_dots=#8B5CF6,#7C3AED,#6D28D9,#5B21B6,#4C1D95&dark_bg=0D1117&dark_mode=true
-            dist/snake-neon.svg?color_snake=#00FFCC&color_dots=#FF0066,#FF3366,#FF6666,#FF9999,#FFCCCC&dark_bg=0D1117
+            dist/snake.svg?color_snake=#00FFCC&color_dots=#FF0066,#FF3377,#FF6699,#FF99BB,#FFCCDD&dark_bg=0D1117
+
+      - name: 🎨 Generate Snake (Golden Style)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
             dist/snake-gold.svg?color_snake=#FFD700&color_dots=#FF4500,#FF6347,#FF7F50,#FFA07A,#FFDAB9&dark_bg=0D1117
+
+      - name: 🎨 Generate Snake (Matrix Style)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
             dist/snake-matrix.svg?color_snake=#00FF41&color_dots=#008F11,#00A813,#00C215,#00DB17,#00F519&dark_bg=0D1117
 
-      - name: 📁 Prepare output directory
-        run: |
-          mkdir -p output
-          cp dist/*.svg output/
+      - name: 🎨 Generate Snake (Cosmic Style)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-cosmic.svg?color_snake=#8A2BE2&color_dots=#FF00FF,#AA00FF,#5500FF,#0000FF,#00AAFF&dark_bg=0D1117
+
+      - name: 🎨 Generate Snake (Sunset Style)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-sunset.svg?color_snake=#FF6B35&color_dots=#FF8C42,#FFA54F,#FFBE5C,#FFD769,#FFF076&dark_bg=0D1117
 
       - name: 🚀 Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./output
+          publish_dir: ./dist
           publish_branch: output
           force_orphan: true
           commit_message: "🐍 Update snake animations [skip ci]"
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
-
-      - name: ✅ Verify deployment
-        run: |
-          echo "✨ Snake animations generated successfully!"
-          echo "📁 Files created:"
-          ls -la output/
