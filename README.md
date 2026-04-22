@@ -84,7 +84,8 @@
 </div>
 
 <br/>
-<<!-- ===== МУЗЫКАЛЬНЫЙ БАННЕР: MIYAGI & ЭНДШПИЛЬ ===== -->
+
+<!-- ===== МУЗЫКАЛЬНЫЙ БАННЕР: MIYAGI & ЭНДШПИЛЬ ===== -->
 <h2 align="center">🎧 В ушах сейчас</h2>
 <div align="center">
   <a href="https://music.yandex.ru/artist/4611844" target="_blank">
@@ -100,6 +101,7 @@
   </p>
 </div>
 <br/>
+
 <!-- ===== FEATURED PROJECTS ===== -->
 <h2 align="center">✨ Избранные проекты</h2>
 
@@ -137,13 +139,117 @@
 
 <br/>
 
-<!-- ===== 3D CONTRIBUTION GRAPH & SNAKE GAME ===== -->
-<h2 align="center">📈 Активность и игры</h2>
+<!-- ===== 3D CONTRIBUTION GRAPH ===== -->
+<h2 align="center">📈 3D-график активности</h2>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Moty2111/github-contributions-3d/assets/contribution-graph.gif" alt="3D Contribution Graph" width="95%" />
-  <br/><br/>
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" alt="Snake Game from Contributions" width="95%" />
+  <img src="https://raw.githubusercontent.com/Moty2111/github-contributions-3d/assets/contribution-graph.gif" alt="3D Contribution Graph" width="95%" style="border-radius: 12px;" />
+  <br/>
+  <sub>✨ Обновляется ежедневно</sub>
 </div>
+<br/>
+
+<!-- ===== SNAKE GAME GALLERY ===== -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/W5eoZHPpUx9s4VcJHJ/giphy.gif" width="30" style="vertical-align: middle;" />
+  🐍 Мои коммиты оживают
+  <img src="https://media.giphy.com/media/W5eoZHPpUx9s4VcJHJ/giphy.gif" width="30" style="vertical-align: middle;" />
+</h2>
+
+<p align="center">
+  <i>Змейка «съедает» мои коммиты и растёт каждый день. Выбери стиль:</i>
+</p>
+
+<!-- Вкладки для переключения -->
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="#neon">
+          <img src="https://img.shields.io/badge/💎%20Неон-00FFCC?style=for-the-badge" alt="Neon" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="#gold">
+          <img src="https://img.shields.io/badge/👑%20Золото-FFD700?style=for-the-badge" alt="Gold" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="#matrix">
+          <img src="https://img.shields.io/badge/🧪%20Матрица-00FF41?style=for-the-badge" alt="Matrix" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="#cosmic">
+          <img src="https://img.shields.io/badge/🌌%20Космос-8A2BE2?style=for-the-badge" alt="Cosmic" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="#sunset">
+          <img src="https://img.shields.io/badge/🌅%20Закат-FF6B35?style=for-the-badge" alt="Sunset" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<!-- Основное изображение (по умолчанию неоновое) -->
+<div id="neon" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" />
+    <img alt="Neon Snake Game" src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(0, 255, 204, 0.3);" />
+  </picture>
+</div>
+
+<!-- Скрытые изображения для переключения -->
+<details>
+  <summary align="center"><b>🎨 Смотреть все стили змейки</b></summary>
+  <br/>
+  
+  <div id="gold" align="center">
+    <h3>👑 Золотая змейка</h3>
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake-gold.svg" alt="Golden Snake" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(255, 215, 0, 0.3);" />
+  </div>
+  
+  <br/>
+  
+  <div id="matrix" align="center">
+    <h3>🧪 Матрица</h3>
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake-matrix.svg" alt="Matrix Snake" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(0, 255, 65, 0.3);" />
+  </div>
+  
+  <br/>
+  
+  <div id="cosmic" align="center">
+    <h3>🌌 Космическая</h3>
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake-cosmic.svg" alt="Cosmic Snake" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(138, 43, 226, 0.3);" />
+  </div>
+  
+  <br/>
+  
+  <div id="sunset" align="center">
+    <h3>🌅 Закатная</h3>
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake-sunset.svg" alt="Sunset Snake" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(255, 107, 53, 0.3);" />
+  </div>
+</details>
+
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" style="background: rgba(22, 27, 34, 0.6); border-radius: 12px; padding: 12px 24px; border: 1px solid #30363d;">
+        <samp>
+          <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="20" style="vertical-align: middle;" />
+          <b> Статистика змейки:</b> обновляется каждый день в полночь UTC
+          <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="20" style="vertical-align: middle;" />
+        </samp>
+      </td>
+    </tr>
+  </table>
+</div>
+
 <br/>
 
 <!-- ===== GITHUB STATISTICS ===== -->
@@ -172,12 +278,6 @@
   <img src="https://github-profile-trophy.vercel.app/?username=Moty2111&theme=algolia&no-frame=true&column=7&margin-w=15" alt="trophies" />
 </div>
 
-<br/>
-
-<!-- ===== MUSIC EQUALIZER (опционально) ===== -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/waveform.svg" alt="Music Visualizer" width="95%" />
-</div>
 <br/>
 
 <!-- ===== SOCIAL LINKS & VISITORS ===== -->
