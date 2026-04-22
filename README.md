@@ -85,12 +85,23 @@
 
 <br/>
 
-<!-- ===== LAST.FM WIDGET (ВМЕСТО SPOTIFY) ===== -->
+<!-- ===== МУЗЫКАЛЬНЫЙ БАННЕР: MIYAGI & ЭНДШПИЛЬ ===== -->
 <h2 align="center">🎧 В ушах сейчас</h2>
 <div align="center">
-  <img src="https://img.shields.io/badge/Музыка-Lofi%20/%20Phonk%20/%20Rock-blue?style=for-the-badge&logo=applemusic&logoColor=white" alt="Music" />
+  <a href="https://music.yandex.ru/artist/4100838" target="_blank">
+    <img src="https://i.ibb.co/Xxb7s0V/miyagi-endspiel-banner.jpg" alt="Miyagi & Эндшпиль" width="600" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); border: 1px solid #30363d;" />
+  </a>
+  <br/>
+  <p style="margin-top: 8px;">
+    <img src="https://img.shields.io/badge/Miyagi%20%26%20Эндшпиль-FF4500?style=for-the-badge&logo=yandexmusic&logoColor=white" alt="Miyagi & Эндшпиль" />
+    <img src="https://img.shields.io/badge/Hajime%20Records-000000?style=for-the-badge&logo=bandcamp&logoColor=white" alt="Hajime Records" />
+  </p>
+  <p>
+    <sub>🔥 I Got Love • Minor • Fire Man • Brooklyn</sub>
+  </p>
 </div>
 <br/>
+
 <!-- ===== FEATURED PROJECTS ===== -->
 <h2 align="center">✨ Избранные проекты</h2>
 
@@ -133,7 +144,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Moty2111/github-contributions-3d/assets/contribution-graph.gif" alt="3D Contribution Graph" width="95%" />
   <br/><br/>
-  <!-- Сюда вставим змейку после генерации -->
   <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" alt="Snake Game from Contributions" width="95%" />
 </div>
 <br/>
