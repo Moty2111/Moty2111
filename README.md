@@ -12,10 +12,10 @@
 
 <br/>
 
-<!-- ===== 3D SOLAR SYSTEM (STACK UNIVERSE) ===== -->
+<!-- ===== STACK UNIVERSE (3D SOLAR SYSTEM) ===== -->
 <div align="center">
-  <a href="https://stack-universe.vercel.app/claim">
-    <img src="([https://stack-universe.vercel.app/universe/Moty2111](https://stack-universe.vercel.app/api/embed-v2/moty2111?v=1)](https://stack-universe.vercel.app/universe/Moty2111)))" alt="My 3D Code Universe" width="540" />
+  <a href="https://stack-universe.vercel.app/universe/Moty2111">
+    <img src="https://stack-universe.vercel.app/api/embed-v2/moty2111?v=1" alt="My 3D Code Universe" width="540" />
   </a>
 </div>
 <br/>
@@ -85,11 +85,11 @@
 
 <br/>
 
-<!-- ===== DYNAMIC SPOTIFY WIDGET ===== -->
-<h2 align="center">🎧 Сейчас играет</h2>
+<!-- ===== LAST.FM WIDGET (ВМЕСТО SPOTIFY) ===== -->
+<h2 align="center">🎧 Что я слушаю</h2>
 <div align="center">
-  <a href="YOUR_SPOTIFY_PROFILE_LINK">
-    <img src="https://spotify-live-banner.vercel.app/api/YOUR_SPOTIFY_USER_ID" alt="Spotify Now Playing" width="540" />
+  <a href="https://www.last.fm/user/ТВОЙ_НИК_НА_LASTFM">
+    <img src="https://lastfm-recently-played.vercel.app/api?user=ТВОЙ_НИК_НА_LASTFM&width=500&count=1&header_size=compact_stats" alt="Last.fm Recently Played" />
   </a>
 </div>
 <br/>
@@ -134,9 +134,10 @@
 <!-- ===== 3D CONTRIBUTION GRAPH & SNAKE GAME ===== -->
 <h2 align="center">📈 Активность и игры</h2>
 <div align="center">
-  <img src="YOUR_3D_CONTRIBUTION_GIF_URL" alt="3D Contribution Graph" width="95%" />
+  <img src="https://raw.githubusercontent.com/Moty2111/github-contributions-3d/assets/contribution-graph.gif" alt="3D Contribution Graph" width="95%" />
   <br/><br/>
-  <img src="YOUR_SNAKE_GAME_GIF_URL" alt="Snake Game from Contributions" width="95%" />
+  <!-- Сюда вставим змейку после генерации -->
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" alt="Snake Game from Contributions" width="95%" />
 </div>
 <br/>
 
@@ -168,9 +169,9 @@
 
 <br/>
 
-<!-- ===== MUSIC EQUALIZER ===== -->
+<!-- ===== MUSIC EQUALIZER (опционально) ===== -->
 <div align="center">
-  <img src="YOUR_WAVEFORM_SVG_URL" alt="Music Visualizer" width="95%" />
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/waveform.svg" alt="Music Visualizer" width="95%" />
 </div>
 <br/>
 
@@ -197,8 +198,3 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=120&section=footer&animation=twinkling" alt="footer" />
 </div>
-
-<!-- 
-  Proudly crafted with 💙 and attention to detail.
-  Want to collaborate? Just reach out!
--->
