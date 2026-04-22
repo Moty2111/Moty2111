@@ -1,9 +1,9 @@
-<!-- HEADER WITH WAVES & GLOW -->
+<!-- ===== HEADER: WAVES & GLOW ===== -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=220&section=header&text=Hey,%20I'm%20Motya%20😌&fontSize=56&fontAlignY=38&fontColor=f0f6fc&animation=fadeIn&desc=I%20craft%20digital%20experiences&descAlignY=55&descSize=22&descColor=c9d1d9" alt="header" />
 </div>
 
-<!-- TYPING ANIMATION -->
+<!-- ===== TYPING ANIMATION ===== -->
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=800&color=58A6FF&center=true&vCenter=true&width=800&lines=Student+Fullstack+Developer;React+%7C+Django+%7C+Node.js;Python+%7C+C%23+%7C+JavaScript;Exploring+architecture+and+clean+code;Always+learning%2C+always+building" alt="Typing SVG" />
@@ -12,7 +12,15 @@
 
 <br/>
 
-<!-- QUOTE OF THE DAY (STATIC) -->
+<!-- ===== 3D SOLAR SYSTEM (STACK UNIVERSE) ===== -->
+<div align="center">
+  <a href="https://stack-universe.vercel.app/claim">
+    <img src="YOUR_STACK_UNIVERSE_SVG_URL" alt="My 3D Code Universe" width="540" />
+  </a>
+</div>
+<br/>
+
+<!-- ===== QUOTE OF THE DAY ===== -->
 <div align="center">
   <table>
     <tr>
@@ -28,10 +36,10 @@
 
 ---
 
-<!-- ABOUT SECTION WITH GLASS CARD -->
+<!-- ===== ABOUT SECTION (GLASS CARD) ===== -->
 <h2 align="center">
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28" style="vertical-align: middle;" /> 
-  Обо мне
+  👨‍💻 Обо мне
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" style="vertical-align: middle;">
 </h2>
 
@@ -53,7 +61,7 @@
 
 <br/>
 
-<!-- TECH STACK WITH ICONS & PROGRESS BARS -->
+<!-- ===== TECH STACK & PROGRESS BARS ===== -->
 <h2 align="center">🛠️ Мой стек / Tech Stack</h2>
 
 <p align="center">
@@ -64,7 +72,6 @@
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,git,github,figma,net" alt="tools" />
 </p>
 
-<!-- SKILL BARS (CUSTOM) -->
 <h3 align="center">📊 Уровень владения</h3>
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
@@ -78,7 +85,16 @@
 
 <br/>
 
-<!-- FEATURED PROJECTS (GLASS CARDS) -->
+<!-- ===== DYNAMIC SPOTIFY WIDGET ===== -->
+<h2 align="center">🎧 Сейчас играет</h2>
+<div align="center">
+  <a href="YOUR_SPOTIFY_PROFILE_LINK">
+    <img src="https://spotify-live-banner.vercel.app/api/YOUR_SPOTIFY_USER_ID" alt="Spotify Now Playing" width="540" />
+  </a>
+</div>
+<br/>
+
+<!-- ===== FEATURED PROJECTS ===== -->
 <h2 align="center">✨ Избранные проекты</h2>
 
 <div align="center">
@@ -115,8 +131,17 @@
 
 <br/>
 
-<!-- GITHUB STATISTICS WITH CUSTOM STYLING -->
-<h2 align="center">📈 GitHub Статистика</h2>
+<!-- ===== 3D CONTRIBUTION GRAPH & SNAKE GAME ===== -->
+<h2 align="center">📈 Активность и игры</h2>
+<div align="center">
+  <img src="YOUR_3D_CONTRIBUTION_GIF_URL" alt="3D Contribution Graph" width="95%" />
+  <br/><br/>
+  <img src="YOUR_SNAKE_GAME_GIF_URL" alt="Snake Game from Contributions" width="95%" />
+</div>
+<br/>
+
+<!-- ===== GITHUB STATISTICS ===== -->
+<h2 align="center">📊 GitHub Статистика</h2>
 
 <div align="center">
   <a href="https://github.com/Moty2111">
@@ -129,22 +154,28 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moty2111&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="streak" />
 </div>
 
-<!-- ACTIVITY GRAPH (DARK THEME) -->
+<!-- ===== ACTIVITY GRAPH ===== -->
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Moty2111&theme=react-dark&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true" alt="contribution graph" width="95%" />
 </div>
 
 <br/>
 
-<!-- TROPHIES -->
+<!-- ===== TROPHIES ===== -->
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Moty2111&theme=algolia&no-frame=true&column=7&margin-w=15" alt="trophies" />
 </div>
 
 <br/>
 
-<!-- SOCIAL LINKS WITH HOVER EFFECT -->
-<h2 align="center">🌐 Соцсети / Socials</h2>
+<!-- ===== MUSIC EQUALIZER ===== -->
+<div align="center">
+  <img src="YOUR_WAVEFORM_SVG_URL" alt="Music Visualizer" width="95%" />
+</div>
+<br/>
+
+<!-- ===== SOCIAL LINKS & VISITORS ===== -->
+<h2 align="center">🌐 Соцсети и статистика</h2>
 
 <p align="center">
   <a href="https://pinterest.com/Motpa34" target="_blank">
@@ -153,12 +184,8 @@
   <a href="https://tiktok.com/@mzorin0" target="_blank">
     <img src="https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white" alt="TikTok"/>
   </a>
-  <!-- Дополнительные соцсети можно добавить здесь -->
 </p>
 
-<br/>
-
-<!-- PROFILE VIEWS & FOLLOWERS -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Moty2111&style=for-the-badge&color=58A6FF" alt="profile views" />
   <img src="https://img.shields.io/github/followers/Moty2111?label=Followers&style=for-the-badge&color=58A6FF" alt="followers" />
@@ -166,7 +193,7 @@
 
 <br/>
 
-<!-- FOOTER WAVES -->
+<!-- ===== FOOTER ===== -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=120&section=footer&animation=twinkling" alt="footer" />
 </div>
