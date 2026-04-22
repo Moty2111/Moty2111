@@ -1,25 +1,109 @@
-## Yo, I'm motya 😌
-Student fullstack developer. Learning all programming languages along the way.
-My stack:
-Languages:Python, SQL, HTML in conjunction with CSS and Javascript,С#. And a minimum level of Flutter.
-Framework:React and Django, Node.js,JQUERY,Vue.js.
-Tools:Git.
-Databases:SQL and MongoDB.
-Objective: To gain a better understanding of programming languages and code structures.
-Here you will find my projects and developments.
-I always welcome constructive criticism and advice!
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3CAAFF,100:3C5A9A&height=200&section=header&text=Hey,%20I'm%20Motya%20😌&fontSize=48&fontAlignY=35&fontColor=ffffff&animation=fadeIn" alt="header" />
+</div>
 
-## 🌐 Socials:
-[![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/Motpa34) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@mzorin0) 
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=800&color=3CAAFF&center=true&vCenter=true&width=600&lines=Student+Fullstack+Developer;Exploring+all+languages;React+%7C+Django+%7C+Node.js;Always+learning+new+things" alt="Typing SVG" />
+  </a>
+</div>
 
-# 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Moty2111&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Moty2111&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Moty2111&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<br/>
+
+<div align="center">
+  <samp>
+    « Code is like humour. When you have to explain it, it’s bad. »<br/>
+    <b>— Cory House</b>
+  </samp>
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Moty2111&icon=5&color=6)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 👨‍💻 &nbsp;Обо мне / About Me
+
+<table align="center">
+  <tr>
+    <td>
+      <ul>
+        <li>🎓 <b>Студент fullstack‑разработчик</b>, влюблённый в чистый код и архитектуру.</li>
+        <li>🌱 Сейчас углубляюсь в <b>React, Django, Node.js</b> и работу с базами данных.</li>
+        <li>🎯 <b>Цель:</b> глубже понять структуры языков и принципы проектирования.</li>
+        <li>📁 Здесь ты найдёшь мои пет‑проекты и учебные разработки.</li>
+        <li>💬 Всегда открыт к конструктивной критике и советам!</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+### 🛠️ &nbsp;Мой стек / Tech Stack
+
+<p align="center">
+  <b>Языки и основные технологии</b><br/>
+  <img src="https://skillicons.dev/icons?i=py,js,ts,cs,html,css,dart" alt="languages" />
+</p>
+
+<p align="center">
+  <b>Фреймворки и библиотеки</b><br/>
+  <img src="https://skillicons.dev/icons?i=react,vue,django,nodejs,flutter,jquery,tailwind,threejs" alt="frameworks" />
+</p>
+
+<p align="center">
+  <b>Базы данных и инструменты</b><br/>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,git,github,figma" alt="tools" />
+</p>
+
+<br/>
+
+---
+
+### 📊 &nbsp;GitHub Статистика
+
+<div align="center">
+  <a href="https://github.com/Moty2111">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Moty2111&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=3CAAFF&icon_color=3CAAFF&text_color=FFFFFF" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moty2111&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3CAAFF&text_color=FFFFFF" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moty2111&theme=tokyonight&hide_border=true&background=0D1117&stroke=3CAAFF&ring=3CAAFF&fire=3CAAFF&currStreakLabel=3CAAFF" alt="streak" />
+</div>
+
+<br/>
+
+---
+
+### 🌐 &nbsp;Соцсети / Socials
+
+<p align="center">
+  <a href="https://pinterest.com/Motpa34" target="_blank">
+    <img src="https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white" alt="Pinterest"/>
+  </a>
+  <a href="https://tiktok.com/@mzorin0" target="_blank">
+    <img src="https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white" alt="TikTok"/>
+  </a>
+  <!-- Здесь можно добавить другие соцсети, если появятся -->
+</p>
+
+<br/>
+
+---
+
+### 📈 &nbsp;Активность и посещения
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Moty2111&style=flat-square&color=3CAAFF" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/Moty2111?label=Followers&style=social" alt="followers" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3CAAFF,100:3C5A9A&height=120&section=footer" alt="footer" />
+</div>
+
+<!-- Proudly updated with love and code ☕ -->
