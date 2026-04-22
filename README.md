@@ -1,83 +1,150 @@
+<!-- HEADER WITH WAVES & GLOW -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3CAAFF,100:3C5A9A&height=200&section=header&text=Hey,%20I'm%20Motya%20😌&fontSize=48&fontAlignY=35&fontColor=ffffff&animation=fadeIn" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=220&section=header&text=Hey,%20I'm%20Motya%20😌&fontSize=56&fontAlignY=38&fontColor=f0f6fc&animation=fadeIn&desc=I%20craft%20digital%20experiences&descAlignY=55&descSize=22&descColor=c9d1d9" alt="header" />
 </div>
 
+<!-- TYPING ANIMATION -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=800&color=3CAAFF&center=true&vCenter=true&width=600&lines=Student+Fullstack+Developer;Exploring+all+languages;React+%7C+Django+%7C+Node.js;Always+learning+new+things" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=800&color=58A6FF&center=true&vCenter=true&width=800&lines=Student+Fullstack+Developer;React+%7C+Django+%7C+Node.js;Python+%7C+C%23+%7C+JavaScript;Exploring+architecture+and+clean+code;Always+learning%2C+always+building" alt="Typing SVG" />
   </a>
 </div>
 
 <br/>
 
+<!-- QUOTE OF THE DAY (STATIC) -->
 <div align="center">
-  <samp>
-    « Code is like humour. When you have to explain it, it’s bad. »<br/>
-    <b>— Cory House</b>
-  </samp>
+  <table>
+    <tr>
+      <td align="center" style="background:#161b22; border-radius: 12px; padding: 12px 24px;">
+        <samp>
+          <i>“Any fool can write code that a computer can understand. <br/>Good programmers write code that humans can understand.”</i><br/>
+          <b>— Martin Fowler</b>
+        </samp>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
 
-### 👨‍💻 &nbsp;Обо мне / About Me
+<!-- ABOUT SECTION WITH GLASS CARD -->
+<h2 align="center">
+  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28" style="vertical-align: middle;" /> 
+  Обо мне
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" style="vertical-align: middle;">
+</h2>
 
-<table align="center">
-  <tr>
-    <td>
-      <ul>
-        <li>🎓 <b>Студент fullstack‑разработчик</b>, влюблённый в чистый код и архитектуру.</li>
-        <li>🌱 Сейчас углубляюсь в <b>React, Django, Node.js</b> и работу с базами данных.</li>
-        <li>🎯 <b>Цель:</b> глубже понять структуры языков и принципы проектирования.</li>
-        <li>📁 Здесь ты найдёшь мои пет‑проекты и учебные разработки.</li>
-        <li>💬 Всегда открыт к конструктивной критике и советам!</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td style="background: rgba(22, 27, 34, 0.7); border-radius: 16px; padding: 20px; backdrop-filter: blur(4px); border: 1px solid #30363d;">
+        <ul style="list-style-type: none; padding-left: 0; margin: 0;">
+          <li>🎓 <b>Студент fullstack‑разработчик</b>, который обожает чистый код и архитектуру.</li>
+          <li>🌱 Сейчас глубоко копаю <b>React, Django, Node.js</b> и проектирование БД.</li>
+          <li>🎯 <b>Цель:</b> глубже понять структуры языков и принципы проектирования.</li>
+          <li>📁 Здесь ты найдёшь мои пет‑проекты, эксперименты и учебные разработки.</li>
+          <li>💬 Открыт к конструктивной критике, менторству и просто интересным беседам!</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <br/>
 
----
-
-### 🛠️ &nbsp;Мой стек / Tech Stack
+<!-- TECH STACK WITH ICONS & PROGRESS BARS -->
+<h2 align="center">🛠️ Мой стек / Tech Stack</h2>
 
 <p align="center">
-  <b>Языки и основные технологии</b><br/>
   <img src="https://skillicons.dev/icons?i=py,js,ts,cs,html,css,dart" alt="languages" />
-</p>
-
-<p align="center">
-  <b>Фреймворки и библиотеки</b><br/>
+  <br/>
   <img src="https://skillicons.dev/icons?i=react,vue,django,nodejs,flutter,jquery,tailwind,threejs" alt="frameworks" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,git,github,figma,net" alt="tools" />
 </p>
 
-<p align="center">
-  <b>Базы данных и инструменты</b><br/>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,git,github,figma" alt="tools" />
-</p>
+<!-- SKILL BARS (CUSTOM) -->
+<h3 align="center">📊 Уровень владения</h3>
+
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
+  <img src="https://img.shields.io/badge/Python-★★★★☆-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-★★★★☆-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-★★★☆☆-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Django-★★★☆☆-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/C%23-★★★☆☆-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/SQL-★★★★☆-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+</div>
 
 <br/>
 
----
+<!-- FEATURED PROJECTS (GLASS CARDS) -->
+<h2 align="center">✨ Избранные проекты</h2>
 
-### 📊 &nbsp;GitHub Статистика
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
+        <h3>📱 TaskFlow</h3>
+        <p><b>React + Django REST</b> · Fullstack приложение для управления задачами с аутентификацией JWT и PostgreSQL.</p>
+        <p>
+          <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react" />
+          <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django" />
+          <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql" />
+        </p>
+        <a href="#">🔗 Репозиторий (скоро)</a>
+      </td>
+      <td width="50%" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
+        <h3>📊 DataViz Dashboard</h3>
+        <p><b>Python + Plotly + SQL</b> · Интерактивные дашборды для анализа данных с визуализацией и фильтрами.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python" />
+          <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly" />
+          <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite" />
+        </p>
+        <a href="#">🔗 Репозиторий (скоро)</a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center" style="padding-top: 16px;">
+        <i>Больше проектов в моих <a href="https://github.com/Moty2111?tab=repositories">репозиториях</a> →</i>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<!-- GITHUB STATISTICS WITH CUSTOM STYLING -->
+<h2 align="center">📈 GitHub Статистика</h2>
 
 <div align="center">
   <a href="https://github.com/Moty2111">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Moty2111&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=3CAAFF&icon_color=3CAAFF&text_color=FFFFFF" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moty2111&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3CAAFF&text_color=FFFFFF" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Moty2111&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moty2111&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moty2111&theme=tokyonight&hide_border=true&background=0D1117&stroke=3CAAFF&ring=3CAAFF&fire=3CAAFF&currStreakLabel=3CAAFF" alt="streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moty2111&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="streak" />
+</div>
+
+<!-- ACTIVITY GRAPH (DARK THEME) -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Moty2111&theme=react-dark&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true" alt="contribution graph" width="95%" />
 </div>
 
 <br/>
 
----
+<!-- TROPHIES -->
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Moty2111&theme=algolia&no-frame=true&column=7&margin-w=15" alt="trophies" />
+</div>
 
-### 🌐 &nbsp;Соцсети / Socials
+<br/>
+
+<!-- SOCIAL LINKS WITH HOVER EFFECT -->
+<h2 align="center">🌐 Соцсети / Socials</h2>
 
 <p align="center">
   <a href="https://pinterest.com/Motpa34" target="_blank">
@@ -86,24 +153,25 @@
   <a href="https://tiktok.com/@mzorin0" target="_blank">
     <img src="https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white" alt="TikTok"/>
   </a>
-  <!-- Здесь можно добавить другие соцсети, если появятся -->
+  <!-- Дополнительные соцсети можно добавить здесь -->
 </p>
 
 <br/>
 
----
-
-### 📈 &nbsp;Активность и посещения
-
+<!-- PROFILE VIEWS & FOLLOWERS -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Moty2111&style=flat-square&color=3CAAFF" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/Moty2111?label=Followers&style=social" alt="followers" />
+  <img src="https://komarev.com/ghpvc/?username=Moty2111&style=for-the-badge&color=58A6FF" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/Moty2111?label=Followers&style=for-the-badge&color=58A6FF" alt="followers" />
 </div>
 
 <br/>
 
+<!-- FOOTER WAVES -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3CAAFF,100:3C5A9A&height=120&section=footer" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=120&section=footer&animation=twinkling" alt="footer" />
 </div>
 
-<!-- Proudly updated with love and code ☕ -->
+<!-- 
+  Proudly crafted with 💙 and attention to detail.
+  Want to collaborate? Just reach out!
+-->
