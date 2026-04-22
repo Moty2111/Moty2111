@@ -86,14 +86,11 @@
 <br/>
 
 <!-- ===== LAST.FM WIDGET (ВМЕСТО SPOTIFY) ===== -->
-<h2 align="center">🎧 Что я слушаю</h2>
+<h2 align="center">🎧 В ушах сейчас</h2>
 <div align="center">
-  <a href="https://www.last.fm/user/ТВОЙ_НИК_НА_LASTFM">
-    <img src="https://lastfm-recently-played.vercel.app/api?user=ТВОЙ_НИК_НА_LASTFM&width=500&count=1&header_size=compact_stats" alt="Last.fm Recently Played" />
-  </a>
+  <img src="https://img.shields.io/badge/Музыка-Lofi%20/%20Phonk%20/%20Rock-blue?style=for-the-badge&logo=applemusic&logoColor=white" alt="Music" />
 </div>
 <br/>
-
 <!-- ===== FEATURED PROJECTS ===== -->
 <h2 align="center">✨ Избранные проекты</h2>
 
