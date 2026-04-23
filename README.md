@@ -153,23 +153,6 @@
 
 <br/>
 
-<!-- ===== ИЗОМЕТРИЧЕСКИЙ 3D-КАЛЕНДАРЬ ===== -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
-  🗓️ Изометрический 3D-календарь активности
-  <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
-</h2>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/isometric-calendar.svg" />
-    <img alt="Isometric 3D Calendar" src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/isometric-calendar.svg" width="95%" style="border-radius: 12px; box-shadow: 0 0 40px rgba(88, 166, 255, 0.4);" />
-  </picture>
-  <br/>
-  <sub>📈 Высота столбиков = твоя продуктивность. Обновляется ежедневно.</sub>
-</div>
-<br/>
-
 <!-- ===== SNAKE GAME GALLERY ===== -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/W5eoZHPpUx9s4VcJHJ/giphy.gif" width="30" style="vertical-align: middle;" />
