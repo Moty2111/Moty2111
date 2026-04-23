@@ -33,6 +33,9 @@
     </tr>
   </table>
 </div>
+
+---
+
 <!-- ===== ABOUT SECTION (GLASS CARD) ===== -->
 <h2 align="center">
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28" style="vertical-align: middle;" /> 
@@ -55,27 +58,32 @@
     </tr>
   </table>
 </div>
+
 <br/>
-<!-- ===== 3D SKYLINE CITY ===== -->
+
+<!-- ===== КИБЕР-ПРИБОРНАЯ ПАНЕЛЬ WIDGETBOX ===== -->
 <h2 align="center">
-  <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
-  🏙️ 3D-город моих коммитов
-  <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
+  <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
+  ⚡ Панель разработчика
+  <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
 </h2>
 
 <div align="center">
-  <a href="https://skyline.github.com/Moty2111/2024" target="_blank">
-    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/skyline.png" alt="3D Skyline City" width="95%" style="border-radius: 16px; box-shadow: 0 0 40px rgba(88, 166, 255, 0.5); border: 1px solid #30363d;" />
-  </a>
+  <table>
+    <tr>
+      <td align="center" style="padding: 10px;">
+        <img src="https://github-widgetbox.vercel.app/api/profile?username=Moty2111&data=followers,repositories,stars,commits&theme=darkmode" alt="GitHub WidgetBox Stats" width="400" style="border-radius: 16px; box-shadow: 0 0 25px rgba(0,255,255,0.3);" />
+      </td>
+      <td align="center" style="padding: 10px;">
+        <img src="https://github-widgetbox.vercel.app/api/skills?languages=python,js,react,django,nodejs,flutter,mongodb&theme=darkmode&includeNames=true" alt="GitHub WidgetBox Skills" width="400" style="border-radius: 16px; box-shadow: 0 0 25px rgba(138,43,226,0.3);" />
+      </td>
+    </tr>
+  </table>
   <br/>
-  <p style="margin-top: 12px;">
-    <a href="https://skyline.github.com/Moty2111/2024" target="_blank">
-      <img src="https://img.shields.io/badge/🌆%20Открыть%20интерактивный%203D--город-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Open Interactive Skyline" />
-    </a>
-  </p>
-  <sub>🏗️ Каждый коммит строит новый небоскрёб. Обновляется ежедневно!</sub>
+  <sub>⚙️ Данные обновляются автоматически с каждым визитом.</sub>
 </div>
 <br/>
+
 <!-- ===== TECH STACK & PROGRESS BARS ===== -->
 <h2 align="center">🛠️ Мой стек / Tech Stack</h2>
 
@@ -117,7 +125,9 @@
 </div>
 <br/>
 
+<!-- ===== FEATURED PROJECTS ===== -->
 <h2 align="center">✨ Избранные проекты</h2>
+
 <div align="center">
   <table>
     <tr>
@@ -149,8 +159,10 @@
     </tr>
   </table>
 </div>
+
 <br/>
 
+<!-- ===== SNAKE GAME GALLERY ===== -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/W5eoZHPpUx9s4VcJHJ/giphy.gif" width="30" style="vertical-align: middle;" />
   🐍 Мои коммиты оживают
@@ -160,6 +172,8 @@
 <p align="center">
   <i>Змейка «съедает» мои коммиты и растёт каждый день. Выбери стиль:</i>
 </p>
+
+<!-- Вкладки для переключения -->
 <div align="center">
   <table>
     <tr>
@@ -194,12 +208,15 @@
 
 <br/>
 
+<!-- Основное изображение (по умолчанию неоновое) -->
 <div id="neon" align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" />
     <img alt="Neon Snake Game" src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(0, 255, 204, 0.3);" />
   </picture>
 </div>
+
+<!-- Скрытые изображения для переключения -->
 <details>
   <summary align="center"><b>🎨 Смотреть все стили змейки</b></summary>
   <br/>
