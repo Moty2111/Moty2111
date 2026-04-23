@@ -1,4 +1,4 @@
-name: 🐍 Ultimate Snake Game
+name: 🐍 Neon Snake
 
 on:
   schedule:
@@ -24,40 +24,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: 🎨 Generate Snake (Neon Style)
+      - name: 🎨 Generate bright neon snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=#00FFCC&color_dots=#FF0066,#FF3377,#FF6699,#FF99BB,#FFCCDD&dark_bg=0D1117
-
-      - name: 🎨 Generate Snake (Golden Style)
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake-gold.svg?color_snake=#FFD700&color_dots=#FF4500,#FF6347,#FF7F50,#FFA07A,#FFDAB9&dark_bg=0D1117
-
-      - name: 🎨 Generate Snake (Matrix Style)
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake-matrix.svg?color_snake=#00FF41&color_dots=#008F11,#00A813,#00C215,#00DB17,#00F519&dark_bg=0D1117
-
-      - name: 🎨 Generate Snake (Cosmic Style)
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake-cosmic.svg?color_snake=#8A2BE2&color_dots=#FF00FF,#AA00FF,#5500FF,#0000FF,#00AAFF&dark_bg=0D1117
-
-      - name: 🎨 Generate Snake (Sunset Style)
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake-sunset.svg?color_snake=#FF6B35&color_dots=#FF8C42,#FFA54F,#FFBE5C,#FFD769,#FFF076&dark_bg=0D1117
+            dist/snake.svg?color_snake=#FF1493&color_dots=#00FFFF,#00FFCC,#FFD700,#FF4500,#FF1493&dark_bg=0D1117
 
       - name: 🚀 Deploy to output branch
         uses: peaceiris/actions-gh-pages@v4
@@ -66,6 +38,6 @@ jobs:
           publish_dir: ./dist
           publish_branch: output
           force_orphan: true
-          commit_message: "🐍 Update snake animations [skip ci]"
+          commit_message: "🐍 Update neon snake"
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
