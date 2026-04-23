@@ -33,9 +33,6 @@
     </tr>
   </table>
 </div>
-
----
-
 <!-- ===== ABOUT SECTION (GLASS CARD) ===== -->
 <h2 align="center">
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28" style="vertical-align: middle;" /> 
@@ -57,28 +54,6 @@
       </td>
     </tr>
   </table>
-</div>
-
-<br/>
-
-<!-- ===== NEON PROFILE CARD ===== -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
-  ✨ Профиль в неоне
-  <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
-</h2>
-
-<div align="center">
-  <!-- Случайная цитата разработчика -->
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="500" alt="Random Dev Quote" style="border-radius: 12px; margin: 10px;" />
-  <br/>
-  <!-- Неоновый баннер с твоим ником и приветствием -->
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=100&section=header&text=Welcome%20to%20Motya's%20Code%20World&fontSize=30&fontColor=ffffff&animation=fadeIn" width="500" alt="Welcome Banner" style="border-radius: 12px; margin: 10px;" />
-  <br/>
-  <!-- Мини-карточка статистики (без заголовка, компактно) -->
-  <a href="https://github.com/Moty2111">
-    <img src="https://github-readme-stats.vercel.app/api?username=Moty2111&show_icons=true&hide_title=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" width="400" alt="GitHub Stats" style="border-radius: 12px; margin: 10px;" />
-  </a>
 </div>
 <br/>
 <!-- ===== TECH STACK & PROGRESS BARS ===== -->
@@ -122,9 +97,7 @@
 </div>
 <br/>
 
-<!-- ===== FEATURED PROJECTS ===== -->
 <h2 align="center">✨ Избранные проекты</h2>
-
 <div align="center">
   <table>
     <tr>
@@ -156,10 +129,8 @@
     </tr>
   </table>
 </div>
-
 <br/>
 
-<!-- ===== SNAKE GAME GALLERY ===== -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/W5eoZHPpUx9s4VcJHJ/giphy.gif" width="30" style="vertical-align: middle;" />
   🐍 Мои коммиты оживают
@@ -169,8 +140,6 @@
 <p align="center">
   <i>Змейка «съедает» мои коммиты и растёт каждый день. Выбери стиль:</i>
 </p>
-
-<!-- Вкладки для переключения -->
 <div align="center">
   <table>
     <tr>
@@ -205,15 +174,12 @@
 
 <br/>
 
-<!-- Основное изображение (по умолчанию неоновое) -->
 <div id="neon" align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" />
     <img alt="Neon Snake Game" src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(0, 255, 204, 0.3);" />
   </picture>
 </div>
-
-<!-- Скрытые изображения для переключения -->
 <details>
   <summary align="center"><b>🎨 Смотреть все стили змейки</b></summary>
   <br/>
