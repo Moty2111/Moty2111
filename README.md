@@ -56,6 +56,26 @@
   </table>
 </div>
 <br/>
+<!-- ===== 3D SKYLINE CITY ===== -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
+  🏙️ 3D-город моих коммитов
+  <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
+</h2>
+
+<div align="center">
+  <a href="https://skyline.github.com/Moty2111/2024" target="_blank">
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/skyline.png" alt="3D Skyline City" width="95%" style="border-radius: 16px; box-shadow: 0 0 40px rgba(88, 166, 255, 0.5); border: 1px solid #30363d;" />
+  </a>
+  <br/>
+  <p style="margin-top: 12px;">
+    <a href="https://skyline.github.com/Moty2111/2024" target="_blank">
+      <img src="https://img.shields.io/badge/🌆%20Открыть%20интерактивный%203D--город-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Open Interactive Skyline" />
+    </a>
+  </p>
+  <sub>🏗️ Каждый коммит строит новый небоскрёб. Обновляется ежедневно!</sub>
+</div>
+<br/>
 <!-- ===== TECH STACK & PROGRESS BARS ===== -->
 <h2 align="center">🛠️ Мой стек / Tech Stack</h2>
 
