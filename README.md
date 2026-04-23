@@ -139,28 +139,35 @@
 
 <br/>
 
-<!-- ===== 3D CITY OF MY CODE (GitHub Skyline) ===== -->
+<!-- ===== GITCITY: 3D ГОРОД ИЗ МОЕГО КОДА (Интерактивный) ===== -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
-  🏙️ 3D-город моих коммитов
+  🏙️ Город моего кода
   <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
 </h2>
 
 <div align="center">
-  <a href="https://skyline.github.com/Moty2111/2024" target="_blank" title="Открыть 3D-город в GitHub Skyline">
-    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/skyline-preview.png" alt="GitHub Skyline Preview" width="95%" style="border-radius: 16px; box-shadow: 0 0 40px rgba(88, 166, 255, 0.4); border: 1px solid #30363d;" />
-  </a>
-  <br/>
+  <table>
+    <tr>
+      <td style="background: rgba(22, 27, 34, 0.6); border-radius: 16px; padding: 8px; border: 1px solid #30363d;">
+         <iframe 
+          src="https://gitcity.vercel.app/user/Moty2111/city?theme=matrix" 
+          width="100%" 
+          height="400px" 
+          frameborder="0" 
+          scrolling="no"
+          style="border-radius: 12px;"
+          title="Мой 3D город коммитов">
+        </iframe>
+      </td>
+    </tr>
+  </table>
   <p style="margin-top: 12px;">
-    <a href="https://skyline.github.com/Moty2111/2024" target="_blank">
-      <img src="https://img.shields.io/badge/🌆%20Открыть%20Мой%203D--Город-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Open 3D City" />
+    <a href="https://gitcity.vercel.app/user/Moty2111/city" target="_blank">
+      <img src="https://img.shields.io/badge/🏙️%20Открыть%20полный%20экран-58A6FF?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Open GitCity" />
     </a>
-    <a href="https://skyline.github.com/Moty2111/2023" target="_blank">
-      <img src="https://img.shields.io/badge/📅%202023%20Год-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="2023 Year" />
-    </a>
-  </p>
-  <p>
-    <sub>🏗️ Каждый коммит — новый небоскрёб. Зайди и рассмотри свой код с высоты птичьего полёта!</sub>
+    <br/>
+    <sub>🚗 Каждый коммит — новый небоскрёб. <b>Покрути, приблизь и прокатись на машине!</b></sub>
   </p>
 </div>
 <br/>
