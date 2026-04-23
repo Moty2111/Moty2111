@@ -90,7 +90,7 @@
 <h2 align="center">🎧 В ушах сейчас</h2>
 <div align="center">
   <a href="https://music.yandex.ru/artist/4611844" target="_blank">
-    <img src="https://i.pinimg.com/736x/11/b8/69/11b869004a82ea35a78bdfda6688b68e.jpg" alt="Miyagi & Эндшпиль" width="800" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); border: 1px solid #30363d;" />
+    <img src="https://i.pinimg.com/736x/11/b8/69/11b869004a82ea35a78bdfda6688b68e.jpg" alt="Miyagi & Эндшпиль" width="600" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); border: 1px solid #30363d;" />
   </a>
   <br/>
   <p style="margin-top: 8px;">
