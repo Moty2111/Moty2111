@@ -128,108 +128,21 @@
 
 <br/>
 
-<!-- ===== SNAKE GAME GALLERY ===== -->
+<!-- ===== ЯРКАЯ НЕОНОВАЯ ЗМЕЙКА ===== -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/W5eoZHPpUx9s4VcJHJ/giphy.gif" width="30" style="vertical-align: middle;" />
   🐍 Мои коммиты оживают
   <img src="https://media.giphy.com/media/W5eoZHPpUx9s4VcJHJ/giphy.gif" width="30" style="vertical-align: middle;" />
 </h2>
 
-<p align="center">
-  <i>Змейка «съедает» мои коммиты и растёт каждый день. Выбери стиль:</i>
-</p>
-
-<!-- Вкладки для переключения -->
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="#neon">
-          <img src="https://img.shields.io/badge/💎%20Неон-00FFCC?style=for-the-badge" alt="Neon" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="#gold">
-          <img src="https://img.shields.io/badge/👑%20Золото-FFD700?style=for-the-badge" alt="Gold" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="#matrix">
-          <img src="https://img.shields.io/badge/🧪%20Матрица-00FF41?style=for-the-badge" alt="Matrix" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="#cosmic">
-          <img src="https://img.shields.io/badge/🌌%20Космос-8A2BE2?style=for-the-badge" alt="Cosmic" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="#sunset">
-          <img src="https://img.shields.io/badge/🌅%20Закат-FF6B35?style=for-the-badge" alt="Sunset" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<!-- Основное изображение (по умолчанию неоновое) -->
-<div id="neon" align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" />
-    <img alt="Neon Snake Game" src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(0, 255, 204, 0.3);" />
+    <img alt="Neon Snake Game" src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" width="95%" style="border-radius: 12px; box-shadow: 0 0 35px rgba(255,20,147,0.5), 0 0 70px rgba(0,255,255,0.3);" />
   </picture>
+  <br/>
+  <sub>⚡ Одна яркая змейка, обновляется каждый день</sub>
 </div>
-
-<!-- Скрытые изображения для переключения -->
-<details>
-  <summary align="center"><b>🎨 Смотреть все стили змейки</b></summary>
-  <br/>
-  
-  <div id="gold" align="center">
-    <h3>👑 Золотая змейка</h3>
-    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake-gold.svg" alt="Golden Snake" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(255, 215, 0, 0.3);" />
-  </div>
-  
-  <br/>
-  
-  <div id="matrix" align="center">
-    <h3>🧪 Матрица</h3>
-    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake-matrix.svg" alt="Matrix Snake" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(0, 255, 65, 0.3);" />
-  </div>
-  
-  <br/>
-  
-  <div id="cosmic" align="center">
-    <h3>🌌 Космическая</h3>
-    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake-cosmic.svg" alt="Cosmic Snake" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(138, 43, 226, 0.3);" />
-  </div>
-  
-  <br/>
-  
-  <div id="sunset" align="center">
-    <h3>🌅 Закатная</h3>
-    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake-sunset.svg" alt="Sunset Snake" width="95%" style="border-radius: 12px; box-shadow: 0 0 30px rgba(255, 107, 53, 0.3);" />
-  </div>
-</details>
-
-<br/>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" style="background: rgba(22, 27, 34, 0.6); border-radius: 12px; padding: 12px 24px; border: 1px solid #30363d;">
-        <samp>
-          <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="20" style="vertical-align: middle;" />
-          <b> Статистика змейки:</b> обновляется каждый день в полночь UTC
-          <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="20" style="vertical-align: middle;" />
-        </samp>
-      </td>
-    </tr>
-  </table>
-</div>
-
 <br/>
 
 <!-- ===== GITHUB STATISTICS ===== -->
