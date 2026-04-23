@@ -139,12 +139,29 @@
 
 <br/>
 
-<!-- ===== 3D CONTRIBUTION GRAPH ===== -->
-<h2 align="center">📈 3D-график активности</h2>
+<!-- ===== 3D CITY OF MY CODE (GitHub Skyline) ===== -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
+  🏙️ 3D-город моих коммитов
+  <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
+</h2>
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Moty2111/github-contributions-3d/assets/contribution-graph.gif" alt="3D Contribution Graph" width="95%" style="border-radius: 12px;" />
+  <a href="https://skyline.github.com/Moty2111/2024" target="_blank" title="Открыть 3D-город в GitHub Skyline">
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/skyline-preview.png" alt="GitHub Skyline Preview" width="95%" style="border-radius: 16px; box-shadow: 0 0 40px rgba(88, 166, 255, 0.4); border: 1px solid #30363d;" />
+  </a>
   <br/>
-  <sub>✨ Обновляется ежедневно</sub>
+  <p style="margin-top: 12px;">
+    <a href="https://skyline.github.com/Moty2111/2024" target="_blank">
+      <img src="https://img.shields.io/badge/🌆%20Открыть%20Мой%203D--Город-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Open 3D City" />
+    </a>
+    <a href="https://skyline.github.com/Moty2111/2023" target="_blank">
+      <img src="https://img.shields.io/badge/📅%202023%20Год-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="2023 Year" />
+    </a>
+  </p>
+  <p>
+    <sub>🏗️ Каждый коммит — новый небоскрёб. Зайди и рассмотри свой код с высоты птичьего полёта!</sub>
+  </p>
 </div>
 <br/>
 
