@@ -20,13 +20,18 @@
 </div>
 <br/>
 
-<!-- ===== НЕОНОВАЯ ЦИТАТА (ПОД ТЁМНУЮ ТЕМУ) ===== -->
+<!-- ===== НЕОНОВАЯ ЦИТАТА (SHIELDS) ===== -->
 <div align="center">
-  <a href="https://music.yandex.ru/artist/4611844" target="_blank">
-    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=2,3,4&height=160&section=header&text=«Я твой недостаток, ты моя бесценная»&fontSize=26&fontAlignY=40&fontColor=00FFFF&desc=— Бах&descAlignY=70&descSize=18&descColor=FF00FF&animation=fadeIn&stroke=00FFFF&strokeWidth=1.5" width="800" alt="Цитата Баха" style="border-radius: 16px; box-shadow: 0 0 40px rgba(0,255,255,0.6), 0 0 80px rgba(255,0,255,0.4);" />
-  </a>
+  <table>
+    <tr>
+      <td align="center" style="background:#0D1117; border-radius: 12px; padding: 16px; border: 1px solid #30363d; box-shadow: 0 0 25px rgba(255,69,0,0.4);">
+        <img src="https://img.shields.io/badge/«Я_твой_недостаток,_ты_моя_Вселенная»-FF4500?style=for-the-badge&logoColor=white" alt="Цитата" />
+        <br/>
+        <img src="https://img.shields.io/badge/—%20Баста-8A2BE2?style=for-the-badge&logoColor=white" alt="Баста" />
+      </td>
+    </tr>
+  </table>
 </div>
-
 ---
 
 <!-- ===== ABOUT SECTION (GLASS CARD) ===== -->
