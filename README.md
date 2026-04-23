@@ -20,10 +20,10 @@
 </div>
 <br/>
 
-<!-- ===== QUOTE BANNER (NEON CARD) ===== -->
+<!-- ===== НЕОНОВАЯ ЦИТАТА (ПОД ТЁМНУЮ ТЕМУ) ===== -->
 <div align="center">
   <a href="https://music.yandex.ru/artist/4611844" target="_blank">
-    <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=140&section=header&text=«Я%20твой%20недостаток,%20ты%20моя%20Вселенная»&fontSize=24&fontAlignY=42&fontColor=FFD700&desc=—%20Баста&descAlignY=68&descSize=16&descColor=C9D1D9&animation=fadeIn&stroke=FF4500&strokeWidth=1" width="800" alt="Цитата Басты" style="border-radius: 16px; box-shadow: 0 0 30px rgba(255,140,0,0.5);" />
+    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=2,3,4&height=160&section=header&text=«Я твой недостаток, ты моя бесценная»&fontSize=26&fontAlignY=40&fontColor=00FFFF&desc=— Бах&descAlignY=70&descSize=18&descColor=FF00FF&animation=fadeIn&stroke=00FFFF&strokeWidth=1.5" width="800" alt="Цитата Баха" style="border-radius: 16px; box-shadow: 0 0 40px rgba(0,255,255,0.6), 0 0 80px rgba(255,0,255,0.4);" />
   </a>
 </div>
 
