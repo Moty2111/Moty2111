@@ -18,6 +18,9 @@ jobs:
       - name: Setup ImageMagick
         run: sudo apt-get install -y imagemagick
 
+      - name: Create assets directory
+        run: mkdir -p assets
+
       - name: Download GitHub avatar
         run: |
           curl -sL https://github.com/Moty2111.png -o avatar.png
@@ -26,16 +29,13 @@ jobs:
 
       - name: Apply 3D sticker effect
         run: |
-          # Создаём эффект объёма через множественные тени и свечение
           convert avatar.png \
             -resize 400x400 \
-            \( +clone -background black -shadow 80x20+10+10 \) \
+            \( +clone -background black -shadow 60x15+8+8 \) \
             +swap -background none -layers merge +repage \
-            \( +clone -background none -flatten -channel A -blur 0x8 -level 0,50% +channel \) \
-            -compose Over -composite \
             -bordercolor "#58A6FF" -border 6 \
             -alpha set -virtual-pixel transparent \
-            -channel A -blur 0x12 -level 50,100% +channel \
+            -channel A -blur 0x10 -level 30,100% +channel \
             assets/3d-avatar.png
           echo "Generated 3D avatar:"
           ls -la assets/3d-avatar.png
