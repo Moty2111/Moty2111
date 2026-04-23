@@ -61,21 +61,6 @@
 
 <br/>
 
-<!-- ===== OP BENTO PREVIEW ===== -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
-  🍱 Бенто-профиль
-  <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
-</h2>
-
-<div align="center">
-  <a href="https://opbento.vercel.app">
-    <img src="https://opbento.vercel.app/api/bento/image?g=Moty2111&z=7300d" alt="OpBento" width="800" style="border-radius: 16px; box-shadow: 0 0 40px rgba(88, 166, 255, 0.5);" />
-  </a>
-  <br/>
-  <sub>🍱 Стильная плитка твоих достижений</sub>
-</div>
-<br/>
 
 <!-- ===== TECH STACK & PROGRESS BARS ===== -->
 <h2 align="center">🛠️ Мой стек / Tech Stack</h2>
