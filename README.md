@@ -61,6 +61,20 @@
 
 <br/>
 
+<!-- ===== 3D AVATAR STICKER ===== -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
+  ✨ Моя 3D-аватарка
+  <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
+</h2>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/3d-avatar.png" alt="3D Avatar" width="200" style="border-radius: 50%; box-shadow: 0 0 30px rgba(88, 166, 255, 0.6); border: 3px solid #58A6FF;" />
+  <br/>
+  <sub>🚀 Стикер-версия моего аватара!</sub>
+</div>
+<br/>
+
 <!-- ===== TECH STACK & PROGRESS BARS ===== -->
 <h2 align="center">🛠️ Мой стек / Tech Stack</h2>
 
@@ -139,20 +153,20 @@
 
 <br/>
 
-<!-- ===== 3D CONTRIBUTION CALENDAR ===== -->
+<!-- ===== ИЗОМЕТРИЧЕСКИЙ 3D-КАЛЕНДАРЬ ===== -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
-  📊 3D-история моего кода
+  🗓️ Изометрический 3D-календарь активности
   <img src="https://media.giphy.com/media/l0HlBO7eyXzF6E1YQ/giphy.gif" width="30" style="vertical-align: middle;" />
 </h2>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Moty2111/Moty2111/main/profile-3d-contrib/profile-night-green.svg" />
-    <img alt="3D Contribution Graph" src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/profile-3d-contrib/profile-green.svg" width="95%" style="border-radius: 12px;" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/isometric-calendar.svg" />
+    <img alt="Isometric 3D Calendar" src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/isometric-calendar.svg" width="95%" style="border-radius: 12px; box-shadow: 0 0 40px rgba(88, 166, 255, 0.4);" />
   </picture>
   <br/>
-  <sub>✨ Автоматически обновляется каждый день. Каждый столбик — неделя твоих коммитов!</sub>
+  <sub>📈 Высота столбиков = твоя продуктивность. Обновляется ежедневно.</sub>
 </div>
 <br/>
 
