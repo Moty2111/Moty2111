@@ -61,17 +61,17 @@
 
 <br/>
 
-<!-- ===== 3D AVATAR STICKER ===== -->
+<!-- ===== ANIMATED 3D AVATAR ===== -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
-  ✨ Моя 3D-аватарка
+  ✨ Живой 3D-аватар
   <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
 </h2>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/3d-avatar.png" alt="3D Avatar" width="200" style="border-radius: 50%; box-shadow: 0 0 30px rgba(88, 166, 255, 0.6); border: 3px solid #58A6FF;" />
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/3d-avatar.gif" alt="Animated 3D Avatar" width="200" style="border-radius: 50%; box-shadow: 0 0 30px rgba(88, 166, 255, 0.6); border: 3px solid #58A6FF;" />
   <br/>
-  <sub>🚀 Стикер-версия моего аватара!</sub>
+  <sub>🌀 Вращается, сияет, живёт своей жизнью!</sub>
 </div>
 <br/>
 
