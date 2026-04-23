@@ -61,26 +61,19 @@
 
 <br/>
 
-<!-- ===== КИБЕР-ПРИБОРНАЯ ПАНЕЛЬ WIDGETBOX (УВЕЛИЧЕННАЯ) ===== -->
+<!-- ===== OP BENTO GRID ===== -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
-  ⚡ Панель разработчика
+  🍱 Бенто-профиль
   <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
 </h2>
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" style="padding: 10px;">
-        <img src="https://github-widgetbox.vercel.app/api/profile?username=Moty2111&data=followers,repositories,stars,commits&theme=darkmode" alt="GitHub WidgetBox Stats" width="500" style="border-radius: 16px; box-shadow: 0 0 35px rgba(0,255,255,0.4);" />
-      </td>
-      <td align="center" style="padding: 10px;">
-        <img src="https://github-widgetbox.vercel.app/api/skills?languages=python,js,react,django,nodejs,flutter,mongodb,html,css,git,github,figma&theme=darkmode&includeNames=true" alt="GitHub WidgetBox Skills" width="500" style="border-radius: 16px; box-shadow: 0 0 35px rgba(138,43,226,0.4);" />
-      </td>
-    </tr>
-  </table>
+  <a href="https://opbento.vercel.app" target="_blank" rel="noopener noreferrer">
+    <img src="https://opbento.vercel.app/api/bento?username=Moty2111&theme=dark&avatar=1&bio=1&stats=1&languages=1&skills=1&achievements=1" alt="OP Bento Grid" width="800" style="border-radius: 16px; box-shadow: 0 0 40px rgba(88, 166, 255, 0.5);" />
+  </a>
   <br/>
-  <sub>⚙️ Данные обновляются автоматически с каждым визитом.</sub>
+  <sub>🍱 Стильная плитка твоих достижений</sub>
 </div>
 <br/>
 
