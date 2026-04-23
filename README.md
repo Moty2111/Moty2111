@@ -20,19 +20,12 @@
 </div>
 <br/>
 
-<!-- ===== НЕОНОВАЯ ЦИТАТА (SHIELDS) ===== -->
+<!-- ===== НЕОНОВАЯ ЦИТАТА С ГРАДИЕНТОМ (CAPSULE-RENDER) ===== -->
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" style="background:#0D1117; border-radius: 12px; padding: 16px; border: 1px solid #30363d; box-shadow: 0 0 25px rgba(255,69,0,0.4);">
-        <img src="https://img.shields.io/badge/«Я_твой_недостаток,_ты_моя_Вселенная»-FF4500?style=for-the-badge&logoColor=white" alt="Цитата" />
-        <br/>
-        <img src="https://img.shields.io/badge/—%20Баста-8A2BE2?style=for-the-badge&logoColor=white" alt="Баста" />
-      </td>
-    </tr>
-  </table>
+  <a href="https://music.yandex.ru/artist/4611844" target="_blank">
+    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=2,3,4&height=140&section=header&text=%C2%AB%D0%AF%20%D1%82%D0%B2%D0%BE%D0%B9%20%D0%BD%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BE%D0%BA%2C%20%D1%82%D1%8B%20%D0%BC%D0%BE%D1%8F%20%D0%92%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%C2%BB&fontSize=24&fontAlignY=42&fontColor=FFD700&desc=%E2%80%94%20%D0%91%D0%B0%D1%81%D1%82%D0%B0&descAlignY=68&descSize=16&descColor=C9D1D9&animation=fadeIn&stroke=FF4500&strokeWidth=1" width="800" alt="Цитата Басты" style="border-radius: 16px; box-shadow: 0 0 30px rgba(255,140,0,0.5);" />
+  </a>
 </div>
----
 
 <!-- ===== ABOUT SECTION (GLASS CARD) ===== -->
 <h2 align="center">
