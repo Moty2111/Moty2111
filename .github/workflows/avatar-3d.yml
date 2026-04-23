@@ -1,0 +1,53 @@
+name: ✨ Generate 3D Avatar Sticker
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 * *"  # раз в месяц
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup ImageMagick
+        run: sudo apt-get install -y imagemagick
+
+      - name: Download GitHub avatar
+        run: |
+          curl -sL https://github.com/Moty2111.png -o avatar.png
+          echo "Downloaded avatar:"
+          ls -la avatar.png
+
+      - name: Apply 3D sticker effect
+        run: |
+          # Создаём эффект объёма через множественные тени и свечение
+          convert avatar.png \
+            -resize 400x400 \
+            \( +clone -background black -shadow 80x20+10+10 \) \
+            +swap -background none -layers merge +repage \
+            \( +clone -background none -flatten -channel A -blur 0x8 -level 0,50% +channel \) \
+            -compose Over -composite \
+            -bordercolor "#58A6FF" -border 6 \
+            -alpha set -virtual-pixel transparent \
+            -channel A -blur 0x12 -level 50,100% +channel \
+            assets/3d-avatar.png
+          echo "Generated 3D avatar:"
+          ls -la assets/3d-avatar.png
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/3d-avatar.png
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "✨ Update 3D avatar sticker"
+            git push
+          fi
