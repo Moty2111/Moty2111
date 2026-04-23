@@ -1,4 +1,4 @@
-name: ✨ Generate 3D Avatar Sticker
+name: ✨ Animated 3D Avatar
 
 on:
   workflow_dispatch:
@@ -12,42 +12,65 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: 📥 Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup ImageMagick
+      - name: 📦 Install ImageMagick
         run: sudo apt-get install -y imagemagick
 
-      - name: Create assets directory
+      - name: 📁 Create assets folder
         run: mkdir -p assets
 
-      - name: Download GitHub avatar
+      - name: 🖼️ Download GitHub avatar
         run: |
           curl -sL https://github.com/Moty2111.png -o avatar.png
-          echo "Downloaded avatar:"
+          echo "Avatar downloaded:"
           ls -la avatar.png
 
-      - name: Apply 3D sticker effect
+      - name: 🎞️ Generate 3D spinning animation
         run: |
-          convert avatar.png \
-            -resize 400x400 \
-            \( +clone -background black -shadow 60x15+8+8 \) \
-            +swap -background none -layers merge +repage \
-            -bordercolor "#58A6FF" -border 6 \
-            -alpha set -virtual-pixel transparent \
-            -channel A -blur 0x10 -level 30,100% +channel \
-            assets/3d-avatar.png
-          echo "Generated 3D avatar:"
-          ls -la assets/3d-avatar.png
+          # Параметры
+          FRAMES=24                # количество кадров
+          DELAY=6                  # задержка между кадрами (в сотых секунды, 6 ≈ 60 мс)
+          SIZE=400                 # размер аватара
+          GLOW_COLOR="#58A6FF"     # цвет свечения
 
-      - name: Commit and push
+          # Создаём временную папку для кадров
+          mkdir frames
+
+          # Генерируем кадры: вращаем аватар по горизонтали и смещаем фон для 3D-эффекта
+          for i in $(seq 0 $((FRAMES-1))); do
+            ANGLE=$(echo "scale=2; 360 / $FRAMES * $i" | bc)
+            # Поворачиваем аватар
+            convert avatar.png \
+              -resize ${SIZE}x${SIZE} \
+              -background none \
+              -distort SRT "0.8,${ANGLE}" \
+              -gravity center \
+              -extent ${SIZE}x${SIZE} \
+              \( +clone -alpha extract -blur 0x10 -shade 130x30 -alpha On \) \
+              -compose Overlay -composite \
+              -bordercolor "$GLOW_COLOR" -border 8 \
+              -alpha set -virtual-pixel transparent \
+              -channel A -blur 0x16 -level 50,100% +channel \
+              -resize ${SIZE}x${SIZE} \
+              frames/frame_$(printf "%03d" $i).png
+          done
+
+          # Собираем кадры в анимированный GIF
+          convert -dispose previous -delay $DELAY -loop 0 frames/*.png assets/3d-avatar.gif
+
+          echo "Animated 3D avatar created:"
+          ls -la assets/3d-avatar.gif
+
+      - name: 📤 Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/3d-avatar.png
+          git add assets/3d-avatar.gif
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "✨ Update 3D avatar sticker"
+            git commit -m "✨ Update animated 3D avatar"
             git push
           fi
