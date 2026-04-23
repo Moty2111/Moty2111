@@ -20,21 +20,20 @@
 </div>
 <br/>
 
-<!-- ===== QUOTE OF THE DAY ===== -->
+<!-- ===== QUOTE OF THE DAY (NEON STYLE) ===== -->
 <div align="center">
   <table>
     <tr>
-      <td align="center" style="background:#161b22; border-radius: 12px; padding: 12px 24px;">
-        <samp>
-          <i>“Any fool can write code that a computer can understand. <br/>Good programmers write code that humans can understand.”</i><br/>
-          <b>— Martin Fowler</b>
-        </samp>
+      <td align="center" style="background:#161b22; border-radius: 16px; padding: 20px 28px; border: 1px solid #30363d; box-shadow: 0 0 20px rgba(88,166,255,0.5);">
+        <code style="font-size: 18px; color: #58A6FF; text-shadow: 0 0 10px rgba(88,166,255,0.8); font-family: 'Fira Code', monospace; white-space: pre-wrap; background: none;">
+«Я твой недостаток, ты моя Вселенная»
+        </code>
+        <br/>
+        <b style="color: #c9d1d9; letter-spacing: 1px;">— Баста</b>
       </td>
     </tr>
   </table>
 </div>
-
----
 
 <!-- ===== ABOUT SECTION (GLASS CARD) ===== -->
 <h2 align="center">
