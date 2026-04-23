@@ -20,16 +20,17 @@
 </div>
 <br/>
 
-<!-- ===== QUOTE OF THE DAY (NEON STYLE) ===== -->
+<!-- ===== QUOTE OF THE DAY (ЯРКИЙ НЕОН) ===== -->
 <div align="center">
-  <table>
+  <table style="border-collapse: collapse; border: none;">
     <tr>
-      <td align="center" style="background:#161b22; border-radius: 16px; padding: 20px 28px; border: 1px solid #30363d; box-shadow: 0 0 20px rgba(88,166,255,0.5);">
-        <code style="font-size: 18px; color: #58A6FF; text-shadow: 0 0 10px rgba(88,166,255,0.8); font-family: 'Fira Code', monospace; white-space: pre-wrap; background: none;">
-«Я твой недостаток, ты моя Вселенная»
-        </code>
-        <br/>
-        <b style="color: #c9d1d9; letter-spacing: 1px;">— Баста</b>
+      <td align="center" style="background: linear-gradient(135deg, #0D1117, #161B22); border-radius: 20px; padding: 28px 36px; border: 1px solid #30363d; box-shadow: 0 0 40px rgba(88,166,255,0.7), 0 0 80px rgba(138,43,226,0.4);">
+        <p style="margin: 0; font-family: 'Fira Code', monospace; font-size: 24px; font-weight: bold; background: linear-gradient(90deg, #FFD700, #FF8C00, #FF4500, #FF1493, #8A2BE2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-shadow: none; letter-spacing: 2px; line-height: 1.6;">
+          «Я твой недостаток, ты моя Вселенная»
+        </p>
+        <p style="margin: 16px 0 0 0; font-family: 'Fira Code', monospace; font-size: 16px; color: #C9D1D9; text-shadow: 0 0 15px rgba(201,209,217,0.6); letter-spacing: 1px;">
+          — Баста
+        </p>
       </td>
     </tr>
   </table>
