@@ -61,20 +61,26 @@
 
 <br/>
 
-<!-- ===== ANIMATED 3D AVATAR ===== -->
+<!-- ===== NEON PROFILE CARD ===== -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
-  ✨ Живой 3D-аватар
+  ✨ Профиль в неоне
   <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
 </h2>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/3d-avatar.gif" alt="Animated 3D Avatar" width="200" style="border-radius: 50%; box-shadow: 0 0 30px rgba(88, 166, 255, 0.6); border: 3px solid #58A6FF;" />
+  <!-- Случайная цитата разработчика -->
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="500" alt="Random Dev Quote" style="border-radius: 12px; margin: 10px;" />
   <br/>
-  <sub>🌀 Вращается, сияет, живёт своей жизнью!</sub>
+  <!-- Неоновый баннер с твоим ником и приветствием -->
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=100&section=header&text=Welcome%20to%20Motya's%20Code%20World&fontSize=30&fontColor=ffffff&animation=fadeIn" width="500" alt="Welcome Banner" style="border-radius: 12px; margin: 10px;" />
+  <br/>
+  <!-- Мини-карточка статистики (без заголовка, компактно) -->
+  <a href="https://github.com/Moty2111">
+    <img src="https://github-readme-stats.vercel.app/api?username=Moty2111&show_icons=true&hide_title=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" width="400" alt="GitHub Stats" style="border-radius: 12px; margin: 10px;" />
+  </a>
 </div>
 <br/>
-
 <!-- ===== TECH STACK & PROGRESS BARS ===== -->
 <h2 align="center">🛠️ Мой стек / Tech Stack</h2>
 
