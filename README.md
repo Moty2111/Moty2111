@@ -61,7 +61,7 @@
 
 <br/>
 
-<!-- ===== КИБЕР-ПРИБОРНАЯ ПАНЕЛЬ WIDGETBOX ===== -->
+<!-- ===== КИБЕР-ПРИБОРНАЯ ПАНЕЛЬ WIDGETBOX (УВЕЛИЧЕННАЯ) ===== -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="30" style="vertical-align: middle;" />
   ⚡ Панель разработчика
@@ -72,10 +72,10 @@
   <table>
     <tr>
       <td align="center" style="padding: 10px;">
-        <img src="https://github-widgetbox.vercel.app/api/profile?username=Moty2111&data=followers,repositories,stars,commits&theme=darkmode" alt="GitHub WidgetBox Stats" width="400" style="border-radius: 16px; box-shadow: 0 0 25px rgba(0,255,255,0.3);" />
+        <img src="https://github-widgetbox.vercel.app/api/profile?username=Moty2111&data=followers,repositories,stars,commits&theme=darkmode" alt="GitHub WidgetBox Stats" width="500" style="border-radius: 16px; box-shadow: 0 0 35px rgba(0,255,255,0.4);" />
       </td>
       <td align="center" style="padding: 10px;">
-        <img src="https://github-widgetbox.vercel.app/api/skills?languages=python,js,react,django,nodejs,flutter,mongodb&theme=darkmode&includeNames=true" alt="GitHub WidgetBox Skills" width="400" style="border-radius: 16px; box-shadow: 0 0 25px rgba(138,43,226,0.3);" />
+        <img src="https://github-widgetbox.vercel.app/api/skills?languages=python,js,react,django,nodejs,flutter,mongodb,html,css,git,github,figma&theme=darkmode&includeNames=true" alt="GitHub WidgetBox Skills" width="500" style="border-radius: 16px; box-shadow: 0 0 35px rgba(138,43,226,0.4);" />
       </td>
     </tr>
   </table>
