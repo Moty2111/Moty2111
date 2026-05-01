@@ -285,26 +285,26 @@
 
 <br/>
 
-<!-- ===== SOCIAL LINKS (КЛИКАБЕЛЬНЫЕ) ===== -->
+<!-- ===== SOCIAL ICONS (КЛИКАБЕЛЬНЫЕ КАСТОМНЫЕ) ===== -->
 <h3 align="center">🌐 Связаться со мной</h3>
 
-<p align="center">
+<div align="center">
   <a href="https://github.com/Moty2111" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/icons/github.svg" width="100" alt="GitHub" style="margin: 0 5px; border-radius: 12px;"/>
   </a>
   <a href="https://t.me/@Moty0104" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-Contact-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/icons/telegram.svg" width="100" alt="Telegram" style="margin: 0 5px; border-radius: 12px;"/>
   </a>
   <a href="https://www.tiktok.com/@mzorin0" target="_blank">
-    <img src="https://img.shields.io/badge/TikTok-@mzorin0-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/icons/tiktok.svg" width="100" alt="TikTok" style="margin: 0 5px; border-radius: 12px;"/>
   </a>
   <a href="https://au.pinterest.com/Motpa34/" target="_blank">
-    <img src="https://img.shields.io/badge/Pinterest-Motpa34-BD081C?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest"/>
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/icons/pinterest.svg" width="100" alt="Pinterest" style="margin: 0 5px; border-radius: 12px;"/>
   </a>
   <a href="mailto:matwey6633@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/icons/email.svg" width="100" alt="Email" style="margin: 0 5px; border-radius: 12px;"/>
   </a>
-</p>
+</div>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Moty2111&style=flat-square&color=58A6FF" alt="profile views" />
