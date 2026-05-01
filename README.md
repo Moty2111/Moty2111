@@ -39,7 +39,7 @@
     <tr>
       <td style="background: rgba(22, 27, 34, 0.7); border-radius: 10px; padding: 12px; backdrop-filter: blur(4px); border: 1px solid #30363d;">
         <ul style="list-style-type: none; padding-left: 0; margin: 0; font-size: 13px;">
-          <li>🎓 <b>Студент fullstack‑разработчик</b>, люблю чистый код и архитектуру.</li>
+          <li>🎓 <b>Студент fullstack‑разработчик</b></li>
           <li>🌱 Сейчас изучаю <b>React, Django, Node.js</b> и проектирование БД.</li>
           <li>🎯 <b>Цель:</b> глубже понять структуры языков и принципы проектирования.</li>
           <li>💬 Открыт к конструктивной критике и интересным беседам!</li>
@@ -119,7 +119,7 @@
     <tr>
       <td width="33%" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
         <h4>🎮 Monopolist</h4>
-        <p style="font-size: 12px;"><b>HTML</b> · Игра Монополия</p>
+        <p style="font-size: 12px;"><b>HTML</b> Курсовой проект</p>
         <p>
           <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5" />
           <img src="https://img.shields.io/badge/Stars-⭐000-yellow?style=flat-square" />
@@ -203,7 +203,6 @@
       </td>
     </tr>
   </table>
-  <sub>🔄 Все виджеты генерируются локально каждые 8 часов. Никаких внешних сервисов!</sub>
 </div>
 <br/>
 
@@ -215,7 +214,6 @@
     <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" width="90%" alt="Neon Snake Game" style="border-radius: 12px; box-shadow: 0 0 35px rgba(255,20,147,0.4);" />
   </a>
   <br/>
-  <sub>⚡ Неоновая змейка обновляется каждый день</sub>
 </div>
 
 <br/>
