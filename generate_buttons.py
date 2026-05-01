@@ -2,9 +2,10 @@ import svgwrite
 import os
 
 def create_buttons():
+    # Создаем папку assets, если её нет
     os.makedirs("assets", exist_ok=True)
 
-    # Иконки (проверенные пути для 24x24 viewBox)
+    # Иконки (пути оставлены как есть, они валидны для SVG, просто плотная запись)
     icons = {
         "github": "M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.418-1.305.762-1.604-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z",
         "telegram": "M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.87 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.938z",
@@ -24,21 +25,27 @@ def create_buttons():
     labels = ["GitHub", "Telegram", "TikTok", "Pinterest", "Email"]
     icon_keys = ["github", "telegram", "tiktok", "pinterest", "gmail"]
 
-    # Отключаем строгую валидацию через profile='tiny'
-    dwg = svgwrite.Drawing("assets/social-buttons.svg", size=(580, 120), profile='tiny')
-    dwg.add(dwg.rect(insert=(0, 0), size=("100%", "100%"), fill="none"))
+    # ВАЖНО: debug=False отключает строгую проверку синтаксиса путей (path d="...")
+    dwg = svgwrite.Drawing("assets/social-buttons.svg", size=(580, 120), debug=False)
+    
+    # Фон (опционально, можно убрать, если нужен прозрачный)
+    # dwg.add(dwg.rect(insert=(0, 0), size=("100%", "100%"), fill="#f0f0f0"))
 
     x = 10
     for label, color, key in zip(labels, colors.values(), icon_keys):
         # Тень кнопки
         dwg.add(dwg.rect(insert=(x+2, 22), size=(100, 80), rx=12, fill="#000000", opacity=0.3))
+        
         # Основная кнопка
         dwg.add(dwg.rect(insert=(x, 20), size=(100, 80), rx=12, fill=color, opacity=0.95))
+        
         # Обводка
         dwg.add(dwg.rect(insert=(x, 20), size=(100, 80), rx=12, fill="none", stroke="#FFFFFF", stroke_width=1.5, opacity=0.4))
 
         # Иконка через группу с transform
         icon_path = icons[key]
+        # Центрируем иконку внутри кнопки (кнопка шириной 100, иконка ~24px)
+        # x + 50 (центр кнопки) - 12 (половина ширины иконки) ≈ x + 38
         g = dwg.g(transform=f"translate({x+38}, 28) scale(1.1)")
         g.add(dwg.path(d=icon_path, fill="#FFFFFF"))
         dwg.add(g)
@@ -47,9 +54,11 @@ def create_buttons():
         dwg.add(dwg.text(label, insert=(x+50, 90), fill="#FFFFFF",
                          font_size="10", text_anchor="middle",
                          font_family="monospace", font_weight="bold"))
+        
         x += 110
 
     dwg.save()
+    print("SVG файл успешно создан: assets/social-buttons.svg")
 
 if __name__ == "__main__":
     create_buttons()
