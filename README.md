@@ -24,9 +24,14 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&theme=dark&height=140&section=header&text=%C2%AB%D0%AF%20%D1%82%D0%B2%D0%BE%D0%B9%20%D0%BD%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BE%D0%BA%2C%20%D1%82%D1%8B%20%D0%BC%D0%BE%D1%8F%20%D0%92%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%C2%BB&fontSize=24&fontAlignY=42&fontColor=8E9AAF&desc=%E2%80%94%20%D0%91%D0%B0%D1%81%D1%82%D0%B0&descAlignY=68&descSize=16&descColor=6C7A89&animation=fadeIn" width="600" alt="Цитата Басты" style="border-radius: 16px; box-shadow: 0 0 20px rgba(100,120,150,0.3);" />
 </div>
+<!-- ===== NEON DANCER ===== -->
+<h3 align="center">💃 Танцующий неон</h3>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/dancer.gif" width="150" alt="Neon Dancer" />
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/dancer.gif" width="200" alt="Neon Dancer" />
+  <br/>
+  <sub>Плавное движение и переливание цвета — как настоящий киберпанк!</sub>
 </div>
+<br/>
 <br/>
 
 <!-- ===== ABOUT SECTION ===== -->
