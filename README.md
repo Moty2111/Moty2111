@@ -181,20 +181,7 @@
 
 <br/>
 
-<!-- ===== НЕОНОВАЯ ЗМЕЙКА (ОБНОВЛЯЕТСЯ КАЖДЫЙ ДЕНЬ) ===== -->
-<h3 align="center">🐍 Мои коммиты оживают</h3>
-
-<div align="center">
-  <a href="https://github.com/Moty2111/Moty2111/blob/output/snake.svg">
-    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" width="90%" alt="Neon Snake Game" style="border-radius: 12px; box-shadow: 0 0 35px rgba(255,20,147,0.4);" />
-  </a>
-  <br/>
-  <sub>⚡ Неоновая змейка обновляется каждый день</sub>
-</div>
-
-<br/>
-
-<!-- ===== GAME STATS (ЛОКАЛЬНЫЕ ГЕНЕРАТОРЫ, УВЕЛИЧЕННЫЕ) ===== -->
+<!-- ===== GAME STATS (ЛОКАЛЬНЫЕ ГЕНЕРАТОРЫ) ===== -->
 <h3 align="center">🎮 Игровая статистика</h3>
 
 <div align="center">
@@ -216,6 +203,19 @@
   </table>
   <sub>🔄 Все виджеты генерируются локально каждые 8 часов. Никаких внешних сервисов!</sub>
 </div>
+<br/>
+
+<!-- ===== НЕОНОВАЯ ЗМЕЙКА (ОБНОВЛЯЕТСЯ КАЖДЫЙ ДЕНЬ) ===== -->
+<h3 align="center">🐍 Мои коммиты оживают</h3>
+
+<div align="center">
+  <a href="https://github.com/Moty2111/Moty2111/blob/output/snake.svg">
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" width="90%" alt="Neon Snake Game" style="border-radius: 12px; box-shadow: 0 0 35px rgba(255,20,147,0.4);" />
+  </a>
+  <br/>
+  <sub>⚡ Неоновая змейка обновляется каждый день</sub>
+</div>
+
 <br/>
 
 <!-- ===== GITHUB STATS (НАДЁЖНЫЕ БЕЙДЖИ) ===== -->
@@ -285,26 +285,11 @@
 
 <br/>
 
-<!-- ===== SOCIAL LINKS ===== -->
+<!-- ===== SOCIAL BUTTONS (CUSTOM) ===== -->
 <h3 align="center">🌐 Связаться со мной</h3>
-
-<p align="center">
-  <a href="https://github.com/Moty2111" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://t.me/@Moty0104" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Telegram-Contact-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
-  </a>
-  <a href="https://www.tiktok.com/@mzorin0" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/TikTok-@mzorin0-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
-  </a>
-  <a href="https://au.pinterest.com/Motpa34/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Pinterest-Motpa34-BD081C?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest"/>
-  </a>
-  <a href="mailto:matwey6633@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/social-buttons.svg" width="600" alt="Social buttons" />
+</div>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Moty2111&style=flat-square&color=58A6FF" alt="profile views" />
@@ -331,7 +316,6 @@
 <div align="center">
   <p>👋 <b>Спасибо за визит! Заходите ещё!</b></p>
   
-  <!-- Переключатель светлой/тёмной темы -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
     <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png" width="120">
