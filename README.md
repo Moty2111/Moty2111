@@ -117,7 +117,7 @@
     <tr>
       <td width="33%" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
         <h4>🎮 Monopolist</h4>
-        <p style="font-size: 12px;"><b>HTML</b> Курсовой проект</p>
+        <p style="font-size: 12px;">Курсовой·проект</p>
         <p>
           <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5" />
           <img src="https://img.shields.io/badge/Stars-⭐000-yellow?style=flat-square" />
@@ -126,7 +126,7 @@
       </td>
       <td width="33%" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
         <h4>🐣 Pasxa</h4>
-        <p style="font-size: 12px;"><b>HTML</b> · Пасхальный проект</p>
+        <p style="font-size: 12px;">Поздравление·с Пасхой</p>
         <p>
           <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5" />
           <img src="https://img.shields.io/badge/Stars-⭐000-yellow?style=flat-square" />
@@ -135,7 +135,7 @@
       </td>
       <td width="33%" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
         <h4>💻 WPF-Primer</h4>
-        <p style="font-size: 12px;"><b>C#</b> · WPF приложение</p>
+        <p style="font-size: 12px;">WPF·практика</p>
         <p>
           <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp" />
           <img src="https://img.shields.io/badge/Stars-⭐000-yellow?style=flat-square" />
@@ -146,7 +146,7 @@
     <tr>
       <td width="33%" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
         <h4>🎨 My-sawes</h4>
-        <p style="font-size: 12px;"><b>JavaScript</b> · Прототип</p>
+        <p style="font-size: 12px;">Прототип</p>
         <p>
           <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript" />
           <img src="https://img.shields.io/badge/Stars-⭐000-yellow?style=flat-square" />
@@ -155,7 +155,7 @@
       </td>
       <td width="33%" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
         <h4>🌸 8marta</h4>
-        <p style="font-size: 12px;"><b>HTML</b> · Поздравление</p>
+        <p style="font-size: 12px;">Поздравление·с 8 Марта</p>
         <p>
           <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5" />
           <img src="https://img.shields.io/badge/Stars-⭐000-yellow?style=flat-square" />
@@ -164,7 +164,7 @@
       </td>
       <td width="33%" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
         <h4>🤖 TG-Bot</h4>
-        <p style="font-size: 12px;"><b>Python</b> · Telegram бот</p>
+        <p style="font-size: 12px;">Telegram·бот</p>
         <p>
           <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python" />
           <img src="https://img.shields.io/badge/Stars-⭐000-yellow?style=flat-square" />
