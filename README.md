@@ -194,29 +194,28 @@
 
 <br/>
 
-<!-- ===== GAME STATS (ГОНОЧНЫЙ + RPG + CRT) ===== -->
+<!-- ===== GAME STATS (ЛОКАЛЬНЫЕ ГЕНЕРАТОРЫ, УВЕЛИЧЕННЫЕ) ===== -->
 <h3 align="center">🎮 Игровая статистика</h3>
 
 <div align="center">
   <table>
     <tr>
-      <td align="center" style="padding: 8px;">
+      <td align="center" style="padding: 10px;">
         <b>🏎️ Гоночный прогресс</b><br/>
-        <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/race-stats.svg" width="300" alt="Race progress" />
+        <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/race-stats.svg" width="380" alt="Race progress" />
       </td>
-      <td align="center" style="padding: 8px;">
+      <td align="center" style="padding: 10px;">
         <b>🎮 RPG-статы</b><br/>
-        <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/rpg-stats.svg" width="280" alt="RPG stats" />
+        <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/rpg-stats.svg" width="380" alt="RPG stats" />
       </td>
-      <td align="center" style="padding: 8px;">
+      <td align="center" style="padding: 10px;">
         <b>📺 CRT-эффект</b><br/>
-        <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/crt-stats.svg" width="280" alt="CRT stats" />
+        <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/crt-stats.svg" width="380" alt="CRT stats" />
       </td>
     </tr>
   </table>
-  <sub>🔄 Все виджеты обновляются каждые 8 часов</sub>
+  <sub>🔄 Все виджеты генерируются локально каждые 8 часов. Никаких внешних сервисов!</sub>
 </div>
-
 <br/>
 
 <!-- ===== GITHUB STATS (НАДЁЖНЫЕ БЕЙДЖИ) ===== -->
