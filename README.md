@@ -27,11 +27,9 @@
 
 <br/>
 
-<!-- ===== ABOUT SECTION (COMPACT) ===== -->
+<!-- ===== ABOUT SECTION ===== -->
 <h2 align="center">
-  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="20" style="vertical-align: middle;" /> 
   👨‍💻 Обо мне
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20" style="vertical-align: middle;">
 </h2>
 
 <div align="center">
@@ -51,7 +49,7 @@
 
 <br/>
 
-<!-- ===== TECH STACK (COMPACT) ===== -->
+<!-- ===== TECH STACK ===== -->
 <h3 align="center">🛠️ Tech Stack</h3>
 
 <p align="center">
@@ -84,7 +82,7 @@
 
 <br/>
 
-<!-- ===== ACHIEVEMENTS & BADGES (РЕЗИНОВЫЕ БЕЙДЖИ, БЕЗ ГИФОК) ===== -->
+<!-- ===== ACHIEVEMENTS ===== -->
 <h3 align="center">🏆 Мои достижения</h3>
 
 <div align="center">
@@ -183,23 +181,27 @@
 
 <br/>
 
-<!-- ===== GITHUB STATISTICS (COMPACT) ===== -->
-<h3 align="center">📊 GitHub Статистика</h3>
+<!-- ===== НЕОНОВАЯ ЗМЕЙКА (ОБНОВЛЯЕТСЯ КАЖДЫЙ ДЕНЬ) ===== -->
+<h3 align="center">🐍 Мои коммиты оживают</h3>
 
 <div align="center">
-  <a href="https://github.com/Moty2111">
-    <img height="140em" src="https://github-readme-stats.vercel.app/api?username=Moty2111&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" alt="GitHub Stats" />
-    <img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moty2111&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" />
+  <a href="https://github.com/Moty2111/Moty2111/blob/output/snake.svg">
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" width="90%" alt="Neon Snake Game" style="border-radius: 12px; box-shadow: 0 0 35px rgba(255,20,147,0.4);" />
   </a>
+  <br/>
+  <sub>⚡ Неоновая змейка обновляется каждый день</sub>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moty2111&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
-</div>
+<br/>
 
-<!-- ===== ACTIVITY GRAPH ===== -->
+<!-- ===== GITHUB STATS (НАДЁЖНЫЕ БЕЙДЖИ) ===== -->
+<h3 align="center">📊 Краткая статистика</h3>
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Moty2111&theme=react-dark&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true" alt="Contribution Graph" width="90%" />
+  <img src="https://img.shields.io/badge/Repos-11-58A6FF?style=flat-square&logo=github" alt="Repos" />
+  <img src="https://img.shields.io/github/stars/Moty2111?style=flat-square&logo=github&label=Stars&color=yellow" alt="Stars" />
+  <img src="https://img.shields.io/github/followers/Moty2111?style=flat-square&logo=github&label=Followers&color=blue" alt="Followers" />
+  <img src="https://img.shields.io/github/commit-activity/m/Moty2111/Moty2111?style=flat-square&logo=github&label=Commits" alt="Commits" />
 </div>
 
 <br/>
@@ -231,7 +233,7 @@
 
 <br/>
 
-<!-- ===== МОЙ WORKFLOW (ТЕКСТОВАЯ СХЕМА) ===== -->
+<!-- ===== МОЙ WORKFLOW ===== -->
 <h3 align="center">🚀 Мой Workflow</h3>
 
 <div align="center">
@@ -259,7 +261,7 @@
 
 <br/>
 
-<!-- ===== SOCIAL LINKS (RUSSIA-FRIENDLY) ===== -->
+<!-- ===== SOCIAL LINKS ===== -->
 <h3 align="center">🌐 Связаться со мной</h3>
 
 <p align="center">
@@ -295,7 +297,7 @@
 
 <br/>
 
-<!-- ===== FINAL BANNER (СТАБИЛЬНЫЙ СЧЁТЧИК И ЭМОДЗИ) ===== -->
+<!-- ===== FINAL BANNER ===== -->
 <div align="center">
   <p>👋 <b>Спасибо за визит! Заходите ещё!</b></p>
   <img src="https://komarev.com/ghpvc/?username=Moty2111&label=👀_Total_Visits&color=58A6FF&style=flat-square" alt="Total visits" />
