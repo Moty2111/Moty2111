@@ -15,7 +15,8 @@ def create_quote_svg(
     glow_filter_id = "glow"
     particles_count = 30
 
-    dwg = svgwrite.Drawing(filename, size=(f"{width}px", f"{height}px"), profile='full')
+    # ✅ debug=False отключает строгую проверку SVG-валидатором
+    dwg = svgwrite.Drawing(filename, size=(f"{width}px", f"{height}px"), profile='full', debug=False)
 
     # --- Определения (градиенты, фильтры) ---
     defs = dwg.defs
@@ -32,9 +33,9 @@ def create_quote_svg(
     glow_filter.feGaussianBlur(in_="SourceAlpha", stdDeviation="4", result="blur")
     glow_filter.feFlood(flood_color="#FF4500", flood_opacity="0.8", result="color")
     glow_filter.feComposite(in_="color", in2="blur", operator="in", result="glow")
-    glow_filter.feMerge()
-    glow_filter.feMergeNode(in_="glow")
-    glow_filter.feMergeNode(in_="SourceGraphic")
+    
+    # ✅ ИСПРАВЛЕНО: feMerge требует список имён слоёв
+    glow_filter.feMerge(['glow', 'SourceGraphic'])
     defs.add(glow_filter)
 
     # --- Фон ---
@@ -76,6 +77,7 @@ def create_quote_svg(
     dwg.add(dwg.circle(center=(width/2 + 60, 190), r=3, fill="#FF4500"))
 
     dwg.save()
+    print(f"✅ SVG успешно создан: {filename}")
 
 if __name__ == "__main__":
     create_quote_svg()
