@@ -12,6 +12,21 @@
 
 <br/>
 
+<!-- ===== STACK UNIVERSE (3D SOLAR SYSTEM) ===== -->
+<div align="center">
+  <a href="https://stack-universe.vercel.app/universe/Moty2111">
+    <img src="https://stack-universe.vercel.app/api/embed-v2/moty2111?v=1" alt="My 3D Code Universe" width="540" />
+  </a>
+</div>
+<br/>
+
+<!-- ===== ЦИТАТА БАСТЫ (ТЁМНЫЙ НЕОН) ===== -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&theme=dark&height=140&section=header&text=%C2%AB%D0%AF%20%D1%82%D0%B2%D0%BE%D0%B9%20%D0%BD%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BE%D0%BA%2C%20%D1%82%D1%8B%20%D0%BC%D0%BE%D1%8F%20%D0%92%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%C2%BB&fontSize=24&fontAlignY=42&fontColor=8E9AAF&desc=%E2%80%94%20%D0%91%D0%B0%D1%81%D1%82%D0%B0&descAlignY=68&descSize=16&descColor=6C7A89&animation=fadeIn" width="600" alt="Цитата Басты" style="border-radius: 16px; box-shadow: 0 0 20px rgba(100,120,150,0.3);" />
+</div>
+
+<br/>
+
 <!-- ===== ABOUT SECTION (COMPACT) ===== -->
 <h2 align="center">
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="20" style="vertical-align: middle;" /> 
@@ -52,6 +67,19 @@
   <img src="https://img.shields.io/badge/Django-★★★☆☆-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
   <img src="https://img.shields.io/badge/C%23-★★★☆☆-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/SQL-★★★★☆-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
+</div>
+
+<br/>
+
+<!-- ===== МУЗЫКАЛЬНЫЙ БАННЕР: MIYAGI & ЭНДШПИЛЬ ===== -->
+<h3 align="center">🎧 В ушах сейчас</h3>
+<div align="center">
+  <a href="https://music.yandex.ru/artist/4611844" target="_blank">
+    <img src="https://i.pinimg.com/736x/11/b8/69/11b869004a82ea35a78bdfda6688b68e.jpg" alt="Miyagi & Эндшпиль" width="600" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); border: 1px solid #30363d;" />
+  </a>
+  <br/>
+  <img src="https://img.shields.io/badge/Miyagi%20%26%20Эндшпиль-FF4500?style=flat-square&logo=yandexmusic&logoColor=white" alt="Miyagi & Эндшпиль" />
+  <img src="https://img.shields.io/badge/Hajime%20Records-000000?style=flat-square&logo=bandcamp&logoColor=white" alt="Hajime Records" />
 </div>
 
 <br/>
@@ -206,12 +234,8 @@
 
 <br/>
 
-<!-- ===== INTERESTING WORKFLOW DIAGRAM ===== -->
+<!-- ===== МОЙ WORKFLOW (ТЕКСТОВАЯ СХЕМА, БЕЗ БИТОГО ИЗОБРАЖЕНИЯ) ===== -->
 <h3 align="center">🚀 Мой Workflow</h3>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/workflow.svg" onerror="this.src='https://via.placeholder.com/800x200/0D1117/58A6FF?text=Workflow+Diagram:+Idea+%E2%86%92+Code+%E2%86%92+Test+%E2%86%92+Deploy'" alt="workflow diagram" width="100%" />
-</div>
 
 <div align="center">
   <table>
