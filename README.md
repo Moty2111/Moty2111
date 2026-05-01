@@ -196,3 +196,126 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=120&section=footer&animation=twinkling" alt="footer" />
 </div>
+
+<br/>
+
+<!-- ===== КОФЕ И ПОДДЕРЖКА ===== -->
+<h2 align="center">☕ Купить мне кофе</h2>
+<div align="center">
+  <p>Нравится то, что я делаю? Поддержите меня чашечкой кофе! ☕</p>
+  <a href="https://www.buymeacoffee.com/" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" style="border-radius: 8px;" />
+  </a>
+  <br/><br/>
+  <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" width="80" alt="coffee" />
+  <img src="https://media.giphy.com/media/l0HlO4BZDsTZxYrXa/giphy.gif" width="80" alt="coding" />
+  <img src="https://media.giphy.com/media/10JhviFuU2gWD6/giphy.gif" width="80" alt="thanks" />
+</div>
+
+<br/>
+
+<!-- ===== ЦИТАТЫ ДНЯ (МЕНЯЮЩИЕСЯ) ===== -->
+<h2 align="center">💡 Мудрость дня</h2>
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="random quotes" width="800" />
+</div>
+
+<br/>
+
+<!-- ===== ЧТО Я ИЗУЧАЮ СЕЙЧАС ===== -->
+<h2 align="center">📚 Сейчас в обучении</h2>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
+        <img src="https://media.giphy.com/media/Kz3LwFryRkTtXcMllF/giphy.gif" width="50" alt="learning" /><br/>
+        <b>TypeScript Advanced</b><br/>
+        <sub>Генерики, Utility Types</sub><br/>
+        <img src="https://img.shields.io/badge/Progress-65%25-blue?style=flat-square" />
+      </td>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
+        <img src="https://media.giphy.com/media/26fxVfINOrqA0nDva/giphy.gif" width="50" alt="database" /><br/>
+        <b>PostgreSQL</b><br/>
+        <sub>Оптимизация запросов</sub><br/>
+        <img src="https://img.shields.io/badge/Progress-40%25-green?style=flat-square" />
+      </td>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
+        <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="50" alt="architecture" /><br/>
+        <b>System Design</b><br/>
+        <sub>Микросервисы, API</sub><br/>
+        <img src="https://img.shields.io/badge/Progress-30%25-orange?style=flat-square" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<!-- ===== СЕРТИФИКАТЫ И КУРСЫ ===== -->
+<h2 align="center">🏆 Сертификаты</h2>
+<div align="center">
+  <p><i>В процессе получения...</i></p>
+  <img src="https://img.shields.io/badge/React-Advanced-Certification-red?style=for-the-badge&logo=react" alt="React Cert" />
+  <img src="https://img.shields.io/badge/Python-Professional-Certification-green?style=for-the-badge&logo=python" alt="Python Cert" />
+  <img src="https://img.shields.io/badge/AWS-Cloud-Practitioner-blue?style=for-the-badge&logo=amazonaws" alt="AWS Cert" />
+  <br/><br/>
+  <sub>🎯 В планах: Meta Front-End Developer, AWS Solutions Architect</sub>
+</div>
+
+<br/>
+
+<!-- ===== ПЕСОЧНИЦА / ЭКСПЕРИМЕНТЫ ===== -->
+<h2 align="center">🧪 Песочница & Эксперименты</h2>
+<div align="center">
+  <table>
+    <tr>
+      <td style="background: rgba(56,139,253,0.15); border-radius: 12px; padding: 16px; border: 1px solid #388bfd;">
+        <h4>🚀 Идеи для проектов</h4>
+        <ul>
+          <li>AI-powered code reviewer</li>
+          <li>Real-time collaborative editor</li>
+          <li>Personal finance tracker with ML</li>
+          <li>Weather app with 3D visualization</li>
+        </ul>
+      </td>
+      <td style="background: rgba(56,139,253,0.15); border-radius: 12px; padding: 16px; border: 1px solid #388bfd;">
+        <h4>💡 Технологии хочу попробовать</h4>
+        <ul>
+          <li>WebAssembly & Rust</li>
+          <li>GraphQL + Apollo</li>
+          <li>Next.js 14 + Server Actions</li>
+          <li>Tauri для десктоп приложений</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<!-- ===== ПРИЗЫВ К ДЕЙСТВИЮ ===== -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=auto&theme=dark&height=100&section=header&text=Let's%20Build%20Something%20Amazing%20Together!&fontSize=28&fontAlignY=45&fontColor=58A6FF&animation=fadeIn" width="800" alt="cta" />
+  <br/><br/>
+  <p>
+    <a href="mailto:your.email@example.com">
+      <img src="https://img.shields.io/badge/📧_Email-Написать-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://t.me/yourtelegram">
+      <img src="https://img.shields.io/badge/✈️_Telegram-Connect-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+    </a>
+    <a href="https://linkedin.com/in/yourprofile">
+      <img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+  </p>
+  <p><sub>✨ Всегда открыт для интересных проектов и коллабораций!</sub></p>
+</div>
+
+<br/>
+
+<!-- ===== ФИНАЛЬНЫЙ БАННЕР ===== -->
+<div align="center">
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="150" alt="wave" />
+  <p><b>Спасибо за визит! Заходите ещё! 👋</b></p>
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMoty2111&count_bg=%2358A6FF&title_bg=%230D1117&icon=github.svg&icon_color=%2358A6FF&title=visits&edge_flat=true" alt="total visits" />
+</div>
