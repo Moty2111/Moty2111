@@ -14,8 +14,8 @@
 
 <!-- ===== STACK UNIVERSE (3D SOLAR SYSTEM) – ШИРЕ ===== -->
 <div align="center">
-  <a href="https://stack-universe.vercel.app/universe/Moty2111">
-    <img src="https://stack-universe.vercel.app/api/embed-v2/moty2111?v=1" alt="My 3D Code Universe" width="800" />
+  <a href="https://github.com/Moty2111">
+    <img src="https://ghchart.rshah.org/58A6FF/Moty2111" alt="Contribution Chart" width="800" style="border-radius: 12px;" />
   </a>
 </div>
 <br/>
@@ -77,12 +77,12 @@
 <!-- ===== МУЗЫКАЛЬНЫЙ БАННЕР: MIYAGI & ЭНДШПИЛЬ (ШИРЕ) ===== -->
 <h2 align="center">🎧 В ушах сейчас</h2>
 <div align="center">
-  <a href="https://music.yandex.ru/artist/4611844" target="_blank">
+  <a href="https://music.yandex.ru/artist/4611844" target="_blank" rel="noopener noreferrer">
     <img src="https://i.pinimg.com/736x/11/b8/69/11b869004a82ea35a78bdfda6688b68e.jpg" alt="Miyagi & Эндшпиль" width="800" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); border: 1px solid #30363d;" />
   </a>
   <br/>
   <p style="margin-top: 8px;">
-    <img src="https://img.shields.io/badge/Miyagi%20%26%20Эндшпиль-FF4500?style=for-the-badge&logo=yandexmusic&logoColor=white" alt="Miyagi & Эндшпиль" />
+    <img src="https://img.shields.io/badge/Miyagi%20%26%20Эндшпиль-FF4500?style=for-the-badge&logo=yandex-music&logoColor=white" alt="Miyagi & Эндшпиль" />
     <img src="https://img.shields.io/badge/Hajime%20Records-000000?style=for-the-badge&logo=bandcamp&logoColor=white" alt="Hajime Records" />
   </p>
   <p>
@@ -105,7 +105,7 @@
           <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django" />
           <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql" />
         </p>
-        <a href="#">🔗 Репозиторий (скоро)</a>
+        <a href="https://github.com/Moty2111?tab=repositories">🔗 Посмотреть репозитории</a>
       </td>
       <td width="50%" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
         <h3>📊 DataViz Dashboard</h3>
@@ -115,7 +115,7 @@
           <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly" />
           <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite" />
         </p>
-        <a href="#">🔗 Репозиторий (скоро)</a>
+        <a href="https://github.com/Moty2111?tab=repositories">🔗 Посмотреть репозитории</a>
       </td>
     </tr>
     <tr>
@@ -177,17 +177,81 @@
 <h2 align="center">🌐 Соцсети и статистика</h2>
 
 <p align="center">
-  <a href="https://pinterest.com/Motpa34" target="_blank">
+  <a href="https://pinterest.com/Motpa34" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white" alt="Pinterest"/>
   </a>
-  <a href="https://tiktok.com/@mzorin0" target="_blank">
+  <a href="https://tiktok.com/@mzorin0" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white" alt="TikTok"/>
+  </a>
+  <a href="https://github.com/Moty2111" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Moty2111&style=for-the-badge&color=58A6FF" alt="profile views" />
   <img src="https://img.shields.io/github/followers/Moty2111?label=Followers&style=for-the-badge&color=58A6FF" alt="followers" />
+</div>
+
+<br/>
+
+<!-- ===== GITHUB WORKFLOW STATS & DEPLOYMENT ===== -->
+<h2 align="center">⚙️ Активность & Workflow</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
+        <h4>📦 Последние коммиты</h4>
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=Moty2111&theme=tokyo-night&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true&width=400&height=200" alt="commit activity" width="400" />
+      </td>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
+        <h4>🏆 Топ языков</h4>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moty2111&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="top languages" width="300" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <br/>
+  <h4>🔄 Статус разработки</h4>
+  <img src="https://img.shields.io/badge/💻_Coding-Active-success?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="coding status" />
+  <img src="https://img.shields.io/badge/🎨_Design-In%20Progress-info?style=for-the-badge&logo=figma&logoColor=white" alt="design status" />
+  <img src="https://img.shields.io/badge/📚_Learning-Always-orange?style=for-the-badge&logo=readme&logoColor=white" alt="learning status" />
+  <br/><br/>
+  <img src="https://profile-counter.glitch.me/Moty2111/count.svg" alt="visitor count" style="border-radius: 8px;" />
+</div>
+
+<br/>
+
+<!-- ===== ПИН-КОДЫ / ИЗБРАННЫЕ РЕПОЗИТОРИИ ===== -->
+<h2 align="center">📌 pinned repositories</h2>
+<div align="center">
+  <p><i>Здесь будут ваши лучшие проекты! Закрепите репозитории в профиле GitHub.</i></p>
+  <a href="https://github.com/Moty2111?tab=repositories">
+    <img src="https://img.shields.io/badge/📂_View_All_Repos-Click_Here-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="view all repos" />
+  </a>
+  <br/><br/>
+  <table>
+    <tr>
+      <td align="center" style="background: rgba(56,139,253,0.1); border-radius: 12px; padding: 16px; border: 1px solid #388bfd;">
+        <b>🔥 Hot Projects</b><br/>
+        <sub>Скоро появятся здесь</sub><br/>
+        <img src="https://media.giphy.com/media/26fxVfINOrqA0nDva/giphy.gif" width="40" alt="loading" />
+      </td>
+      <td align="center" style="background: rgba(56,139,253,0.1); border-radius: 12px; padding: 16px; border: 1px solid #388bfd;">
+        <b>⭐ Featured</b><br/>
+        <sub>В разработке</sub><br/>
+        <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="40" alt="building" />
+      </td>
+      <td align="center" style="background: rgba(56,139,253,0.1); border-radius: 12px; padding: 16px; border: 1px solid #388bfd;">
+        <b>🚀 New</b><br/>
+        <sub>Скоро будет</sub><br/>
+        <img src="https://media.giphy.com/media/Kz3LwFryRkTtXcMllF/giphy.gif" width="40" alt="new" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
@@ -203,7 +267,7 @@
 <h2 align="center">☕ Купить мне кофе</h2>
 <div align="center">
   <p>Нравится то, что я делаю? Поддержите меня чашечкой кофе! ☕</p>
-  <a href="https://www.buymeacoffee.com/" target="_blank">
+  <a href="https://www.buymeacoffee.com/" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" style="border-radius: 8px;" />
   </a>
   <br/><br/>
@@ -298,13 +362,13 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=auto&theme=dark&height=100&section=header&text=Let's%20Build%20Something%20Amazing%20Together!&fontSize=28&fontAlignY=45&fontColor=58A6FF&animation=fadeIn" width="800" alt="cta" />
   <br/><br/>
   <p>
-    <a href="mailto:your.email@example.com">
+    <a href="mailto:motya2111@example.com">
       <img src="https://img.shields.io/badge/📧_Email-Написать-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <a href="https://t.me/yourtelegram">
+    <a href="https://t.me/moty2111" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/✈️_Telegram-Connect-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
     </a>
-    <a href="https://linkedin.com/in/yourprofile">
+    <a href="https://linkedin.com/in/motya2111" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
   </p>
@@ -314,6 +378,94 @@
 <br/>
 
 <!-- ===== ФИНАЛЬНЫЙ БАННЕР ===== -->
+<div align="center">
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="150" alt="wave" />
+  <p><b>Спасибо за визит! Заходите ещё! 👋</b></p>
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMoty2111&count_bg=%2358A6FF&title_bg=%230D1117&icon=github.svg&icon_color=%2358A6FF&title=visits&edge_flat=true" alt="total visits" />
+</div>
+
+<br/>
+
+<!-- ===== DEVICON WORKFLOW & CI/CD ===== -->
+<h2 align="center">🛠️ Инструменты разработки</h2>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
+        <h4>📝 Редакторы кода</h4>
+        <img src="https://skillicons.dev/icons?i=vscode,vim,idea,pycharm,webstorm" alt="editors" /><br/>
+        <sub>VS Code • Vim • IntelliJ • PyCharm • WebStorm</sub>
+      </td>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
+        <h4>🔄 DevOps & CI/CD</h4>
+        <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,gitlab,nginx" alt="devops" /><br/>
+        <sub>Docker • Kubernetes • GitHub Actions • GitLab CI • Nginx</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
+        <h4>☁️ Cloud Platforms</h4>
+        <img src="https://skillicons.dev/icons?i=aws,azure,gcp,vercel,netlify" alt="cloud" /><br/>
+        <sub>AWS • Azure • GCP • Vercel • Netlify</sub>
+      </td>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 12px; padding: 16px; border: 1px solid #30363d;">
+        <h4>🧪 Testing</h4>
+        <img src="https://skillicons.dev/icons?i=jest,vitest,pytest,cypress,selenium" alt="testing" /><br/>
+        <sub>Jest • Vitest • Pytest • Cypress • Selenium</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<!-- ===== ГОРИЗОНТАЛЬНАЯ ЛИНИЯ С РАЗДЕЛИТЕЛЕМ ===== -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" height="4" alt="divider" style="width: 100%;" />
+</div>
+
+<br/>
+
+<!-- ===== БЫСТРЫЕ СТАТИСТИКИ В РЕАЛЬНОМ ВРЕМЕНИ ===== -->
+<h2 align="center">⚡ Статистика в реальном времени</h2>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=Moty2111&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF&hide_rank=false&disable_animations=false" alt="github stats" width="400" />
+      </td>
+      <td align="center">
+        <img src="https://streak-stats.demolab.com/?user=Moty2111&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&sideNums=58A6FF&currStreakNum=58A6FF" alt="streak stats" width="400" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<!-- ===== WAKATIME / КОДИНГ АКТИВНОСТЬ (ЕСЛИ ЕСТЬ) ===== -->
+<h2 align="center">⏱️ Время кодирования</h2>
+<div align="center">
+  <p><i>🔌 Подключи Wakatime для отслеживания времени кодирования</i></p>
+  <a href="https://wakatime.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Wakatime-Connect-00C3FF?style=for-the-badge&logo=wakatime&logoColor=white" alt="Wakatime" />
+  </a>
+  <br/><br/>
+  <!-- Раскомментируй, когда подключишь Wakatime -->
+  <!-- <img src="https://github-readme-stats.vercel.app/api/wakatime?username=yourusername&theme=tokyonight&hide_border=true" alt="wakatime stats" /> -->
+</div>
+
+<br/>
+
+<!-- ===== GITHUB PROFILE DETAILS & ACHIEVEMENTS ===== -->
+<h2 align="center">🎖️ Достижения GitHub</h2>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Moty2111&theme=tokyonight&no-frame=true&column=7&margin-w=15" alt="trophies" />
+</div>
+
+<br/>
+
+<!-- ===== ЗАВЕРШАЮЩИЙ БАННЕР ===== -->
 <div align="center">
   <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="150" alt="wave" />
   <p><b>Спасибо за визит! Заходите ещё! 👋</b></p>
