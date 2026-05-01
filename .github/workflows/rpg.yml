@@ -9,17 +9,21 @@ permissions:
   contents: write
 
 jobs:
-  fetch:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Fetch RPG image
-        run: |
-          mkdir -p assets
-          curl -s "https://github-rpg-stats.vercel.app/api?username=Moty2111&theme=dark" -o assets/rpg-stats.svg
-
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install svgwrite requests
+      - name: Create assets folder
+        run: mkdir -p assets
+      - name: Generate RPG SVG
+        run: python generate_rpg.py
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
