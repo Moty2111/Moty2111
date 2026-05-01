@@ -285,7 +285,7 @@
 
 <br/>
 
-<!-- ===== SOCIAL BUTTONS (CUSTOM) ===== -->
+<!-- ===== SOCIAL BUTTONS (CUSTOM SVG) ===== -->
 <h3 align="center">🌐 Связаться со мной</h3>
 <div align="center">
   <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/social-buttons.svg" width="600" alt="Social buttons" />
