@@ -20,15 +20,6 @@
 </div>
 <br/>
 
-<!-- ===== СУПЕРСТИЛЬНАЯ ЦИТАТА ===== -->
-<h3 align="center">💬Forever in my heart</h3>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/quote.svg" width="90%" alt="Цитата" />
-  <br/>
-</div>
-<br/>
-<br/>
-
 <!-- ===== ABOUT SECTION ===== -->
 <h2 align="center">
   👨‍💻 Обо мне
@@ -51,6 +42,26 @@
 
 <br/>
 
+<!-- ===== СУПЕРСТИЛЬНАЯ ЦИТАТА ===== -->
+<h3 align="center">💬 Forever in my heart</h3>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/quote.svg" width="90%" alt="Цитата" />
+</div>
+<br/>
+
+<!-- ===== МУЗЫКАЛЬНЫЙ БАННЕР: MIYAGI & ЭНДШПИЛЬ ===== -->
+<h3 align="center">🎧 В ушах сейчас</h3>
+<div align="center">
+  <a href="https://music.yandex.ru/artist/4611844" target="_blank">
+    <img src="https://i.pinimg.com/736x/11/b8/69/11b869004a82ea35a78bdfda6688b68e.jpg" alt="Miyagi & Эндшпиль" width="600" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); border: 1px solid #30363d;" />
+  </a>
+  <br/>
+  <img src="https://img.shields.io/badge/Miyagi%20%26%20Эндшпиль-FF4500?style=flat-square&logo=yandexmusic&logoColor=white" alt="Miyagi & Эндшпиль" />
+  <img src="https://img.shields.io/badge/Hajime%20Records-000000?style=flat-square&logo=bandcamp&logoColor=white" alt="Hajime Records" />
+</div>
+
+<br/>
+
 <!-- ===== TECH STACK ===== -->
 <h3 align="center">🛠️ Tech Stack</h3>
 
@@ -67,19 +78,6 @@
   <img src="https://img.shields.io/badge/Django-★★★☆☆-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
   <img src="https://img.shields.io/badge/C%23-★★★☆☆-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/SQL-★★★★☆-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
-</div>
-
-<br/>
-
-<!-- ===== МУЗЫКАЛЬНЫЙ БАННЕР: MIYAGI & ЭНДШПИЛЬ ===== -->
-<h3 align="center">🎧 В ушах сейчас</h3>
-<div align="center">
-  <a href="https://music.yandex.ru/artist/4611844" target="_blank">
-    <img src="https://i.pinimg.com/736x/11/b8/69/11b869004a82ea35a78bdfda6688b68e.jpg" alt="Miyagi & Эндшпиль" width="600" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); border: 1px solid #30363d;" />
-  </a>
-  <br/>
-  <img src="https://img.shields.io/badge/Miyagi%20%26%20Эндшпиль-FF4500?style=flat-square&logo=yandexmusic&logoColor=white" alt="Miyagi & Эндшпиль" />
-  <img src="https://img.shields.io/badge/Hajime%20Records-000000?style=flat-square&logo=bandcamp&logoColor=white" alt="Hajime Records" />
 </div>
 
 <br/>
@@ -213,7 +211,6 @@
   <a href="https://github.com/Moty2111/Moty2111/blob/output/snake.svg">
     <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" width="90%" alt="Neon Snake Game" style="border-radius: 12px; box-shadow: 0 0 35px rgba(255,20,147,0.4);" />
   </a>
-  <br/>
 </div>
 
 <br/>
