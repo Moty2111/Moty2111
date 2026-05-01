@@ -24,7 +24,8 @@ def create_buttons():
     labels = ["GitHub", "Telegram", "TikTok", "Pinterest", "Email"]
     icon_keys = ["github", "telegram", "tiktok", "pinterest", "gmail"]
 
-    dwg = svgwrite.Drawing("assets/social-buttons.svg", size=(580, 120))
+    # Отключаем строгую валидацию через profile='tiny'
+    dwg = svgwrite.Drawing("assets/social-buttons.svg", size=(580, 120), profile='tiny')
     dwg.add(dwg.rect(insert=(0, 0), size=("100%", "100%"), fill="none"))
 
     x = 10
