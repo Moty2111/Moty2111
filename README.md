@@ -285,17 +285,31 @@
 
 <br/>
 
-<!-- ===== SOCIAL BUTTONS (CUSTOM SVG) ===== -->
+<!-- ===== SOCIAL LINKS (КЛИКАБЕЛЬНЫЕ) ===== -->
 <h3 align="center">🌐 Связаться со мной</h3>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/social-buttons.svg" width="600" alt="Social buttons" />
-</div>
+
+<p align="center">
+  <a href="https://github.com/Moty2111" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://t.me/@Moty0104" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-Contact-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  </a>
+  <a href="https://www.tiktok.com/@mzorin0" target="_blank">
+    <img src="https://img.shields.io/badge/TikTok-@mzorin0-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
+  </a>
+  <a href="https://au.pinterest.com/Motpa34/" target="_blank">
+    <img src="https://img.shields.io/badge/Pinterest-Motpa34-BD081C?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest"/>
+  </a>
+  <a href="mailto:matwey6633@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Moty2111&style=flat-square&color=58A6FF" alt="profile views" />
   <img src="https://img.shields.io/github/followers/Moty2111?label=Followers&style=flat-square&color=58A6FF" alt="followers" />
 </div>
-
 <br/>
 
 <!-- ===== TROPHIES ===== -->
