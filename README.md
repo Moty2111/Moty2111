@@ -268,10 +268,10 @@
   <a href="https://github.com/Moty2111" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="https://t.me/mzorin0" target="_blank" rel="noopener noreferrer">
+  <a href="https://t.me/@Moty0104" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Telegram-Contact-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:matwey6633@gmail.com">
     <img src="https://img.shields.io/badge/Email-Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
