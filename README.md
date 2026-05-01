@@ -261,7 +261,7 @@
 
 <br/>
 
-<!-- ===== SOCIAL LINKS ===== -->
+<!-- ===== SOCIAL LINKS (ОБНОВЛЁННЫЕ С TIKTOK И PINTEREST) ===== -->
 <h3 align="center">🌐 Связаться со мной</h3>
 
 <p align="center">
@@ -270,6 +270,12 @@
   </a>
   <a href="https://t.me/@Moty0104" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Telegram-Contact-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  </a>
+  <a href="https://www.tiktok.com/@mzorin0" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/TikTok-@mzorin0-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
+  </a>
+  <a href="https://au.pinterest.com/Motpa34/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Pinterest-Motpa34-BD081C?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest"/>
   </a>
   <a href="mailto:matwey6633@gmail.com">
     <img src="https://img.shields.io/badge/Email-Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
