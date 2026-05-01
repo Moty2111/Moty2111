@@ -163,13 +163,13 @@
         <a href="https://github.com/Moty2111/8marta">🔗 Смотреть</a>
       </td>
       <td width="33%" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
-        <h4>🔄 github-contributions-3d</h4>
-        <p style="font-size: 12px;"><b>3D Animation</b> · GitHub contributions</p>
+        <h4>🤖 TG-Bot</h4>
+        <p style="font-size: 12px;"><b>Python</b> · Telegram бот</p>
         <p>
-          <img src="https://img.shields.io/badge/Animation-✨-purple?style=flat-square" />
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python" />
           <img src="https://img.shields.io/badge/Stars-⭐000-yellow?style=flat-square" />
         </p>
-        <a href="https://github.com/Moty2111/github-contributions-3d">🔗 Смотреть</a>
+        <a href="https://github.com/Moty2111/TG-Bot">🔗 Смотреть</a>
       </td>
     </tr>
   </table>
