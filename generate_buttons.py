@@ -29,26 +29,23 @@ def create_buttons():
 
     x = 10
     for label, color, key in zip(labels, colors.values(), icon_keys):
-        # Тень
+        # Тень кнопки
         dwg.add(dwg.rect(insert=(x+2, 22), size=(100, 80), rx=12, fill="#000000", opacity=0.3))
-        # Кнопка
+        # Основная кнопка
         dwg.add(dwg.rect(insert=(x, 20), size=(100, 80), rx=12, fill=color, opacity=0.95))
         # Обводка
         dwg.add(dwg.rect(insert=(x, 20), size=(100, 80), rx=12, fill="none", stroke="#FFFFFF", stroke_width=1.5, opacity=0.4))
-        # Иконка
+
+        # Иконка через группу с transform
         icon_path = icons[key]
-        # Размещаем иконку в центре: 24x24 масштабируем, координаты x+38, y+28
-        dwg.add(dwg.path(d=icon_path,
-                         fill="#FFFFFF",
-                         transform=f"translate({x+38}, 28) scale(1.1)"))
+        g = dwg.g(transform=f"translate({x+38}, 28) scale(1.1)")
+        g.add(dwg.path(d=icon_path, fill="#FFFFFF"))
+        dwg.add(g)
+
         # Название
-        dwg.add(dwg.text(label,
-                         insert=(x+50, 90),
-                         fill="#FFFFFF",
-                         font_size="10",
-                         text_anchor="middle",
-                         font_family="monospace",
-                         font_weight="bold"))
+        dwg.add(dwg.text(label, insert=(x+50, 90), fill="#FFFFFF",
+                         font_size="10", text_anchor="middle",
+                         font_family="monospace", font_weight="bold"))
         x += 110
 
     dwg.save()
