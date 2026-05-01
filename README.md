@@ -302,7 +302,11 @@
 </div>
 
 <br/>
-
+<h3 align="center">🏎️ Гоночный прогресс</h3>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/race-stats.svg" width="90%" alt="Race Progress" />
+</div>
+<br/>
 <!-- ===== FINAL BANNER ===== -->
 <div align="center">
   <p>👋 <b>Спасибо за визит! Заходите ещё!</b></p>
