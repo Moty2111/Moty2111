@@ -313,16 +313,8 @@
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Moty2111&theme=tokyonight&no-frame=true&column=5&margin-w=10" alt="trophies" />
 </div>
-
 <br/>
-
-<!-- ===== FOOTER ===== -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=80&section=footer&animation=twinkling" alt="footer" />
-</div>
-
 <br/>
-
 <!-- ===== FINAL BANNER ===== -->
 <div align="center">
   <p>👋 <b>Спасибо за визит! Заходите ещё!</b></p>
@@ -334,4 +326,8 @@
   
   <br/><br/>
   <img src="https://komarev.com/ghpvc/?username=Moty2111&label=👀_Total_Visits&color=58A6FF&style=flat-square" alt="Total visits" />
+</div>
+<!-- ===== FOOTER ===== -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=80&section=footer&animation=twinkling" alt="footer" />
 </div>
