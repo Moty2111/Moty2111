@@ -84,29 +84,26 @@
 
 <br/>
 
-<!-- ===== ACHIEVEMENTS & BADGES ===== -->
+<!-- ===== ACHIEVEMENTS & BADGES (РЕЗИНОВЫЕ БЕЙДЖИ, БЕЗ ГИФОК) ===== -->
 <h3 align="center">🏆 Мои достижения</h3>
 
 <div align="center">
   <table>
     <tr>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
-        <img src="https://media.giphy.com/media/26fxVfINOrqA0nDva/giphy.gif" width="40" alt="trophy" /><br/>
         <b>🥇 GitHub Contributor</b><br/>
         <sub>Активные коммиты</sub><br/>
-        <img src="https://img.shields.io/badge/Level-Gold-FFD700?style=flat-square" />
+        <img src="https://img.shields.io/badge/Level-Gold-FFD700?style=flat-square" alt="Gold" />
       </td>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
-        <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="40" alt="builder" /><br/>
         <b>🔨 Project Builder</b><br/>
         <sub>8+ репозиториев</sub><br/>
-        <img src="https://img.shields.io/badge/Repos-8+-blue?style=flat-square" />
+        <img src="https://img.shields.io/badge/Repos-8+-blue?style=flat-square" alt="Repos" />
       </td>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
-        <img src="https://media.giphy.com/media/Kz3LwFryRkTtXcMllF/giphy.gif" width="40" alt="learner" /><br/>
         <b>📚 Fast Learner</b><br/>
         <sub>6+ языков</sub><br/>
-        <img src="https://img.shields.io/badge/Languages-6-green?style=flat-square" />
+        <img src="https://img.shields.io/badge/Languages-6-green?style=flat-square" alt="Languages" />
       </td>
     </tr>
   </table>
@@ -191,18 +188,18 @@
 
 <div align="center">
   <a href="https://github.com/Moty2111">
-    <img height="140em" src="https://github-readme-stats.vercel.app/api?username=Moty2111&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" />
-    <img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moty2111&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" />
+    <img height="140em" src="https://github-readme-stats.vercel.app/api?username=Moty2111&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" alt="GitHub Stats" />
+    <img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moty2111&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moty2111&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moty2111&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
 </div>
 
 <!-- ===== ACTIVITY GRAPH ===== -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Moty2111&theme=react-dark&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true" alt="contribution graph" width="90%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Moty2111&theme=react-dark&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true" alt="Contribution Graph" width="90%" />
 </div>
 
 <br/>
@@ -234,7 +231,7 @@
 
 <br/>
 
-<!-- ===== МОЙ WORKFLOW (ТЕКСТОВАЯ СХЕМА, БЕЗ БИТОГО ИЗОБРАЖЕНИЯ) ===== -->
+<!-- ===== МОЙ WORKFLOW (ТЕКСТОВАЯ СХЕМА) ===== -->
 <h3 align="center">🚀 Мой Workflow</h3>
 
 <div align="center">
@@ -298,9 +295,8 @@
 
 <br/>
 
-<!-- ===== FINAL BANNER ===== -->
+<!-- ===== FINAL BANNER (СТАБИЛЬНЫЙ СЧЁТЧИК И ЭМОДЗИ) ===== -->
 <div align="center">
-  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100" alt="wave" />
-  <p><b>Спасибо за визит! Заходите ещё! 👋</b></p>
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMoty2111&count_bg=%2358A6FF&title_bg=%230D1117&icon=github.svg&icon_color=%2358A6FF&title=visits&edge_flat=true" alt="total visits" />
+  <p>👋 <b>Спасибо за визит! Заходите ещё!</b></p>
+  <img src="https://komarev.com/ghpvc/?username=Moty2111&label=👀_Total_Visits&color=58A6FF&style=flat-square" alt="Total visits" />
 </div>
