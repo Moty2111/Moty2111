@@ -1,0 +1,28 @@
+name: 🎮 RPG Stats
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch RPG image
+        run: |
+          mkdir -p assets
+          curl -s "https://github-rpg-stats.vercel.app/api?username=Moty2111&theme=dark" -o assets/rpg-stats.svg
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/rpg-stats.svg
+          git diff --cached --quiet || (git commit -m "🎮 Update RPG stats" && git push)
