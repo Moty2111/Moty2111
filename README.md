@@ -49,19 +49,47 @@
 </div>
 <br/>
 
-<!-- ===== МУЗЫКАЛЬНЫЙ БАННЕР: MIYAGI & ЭНДШПИЛЬ ===== -->
+<!-- ===== МУЗЫКАЛЬНЫЙ БАННЕР: ЛЮБИМЫЕ АРТИСТЫ ===== -->
 <h3 align="center">🎧 В ушах сейчас</h3>
+
 <div align="center">
-  <a href="https://music.yandex.ru/artist/4611844" target="_blank">
-    <img src="https://i.pinimg.com/736x/11/b8/69/11b869004a82ea35a78bdfda6688b68e.jpg" alt="Miyagi & Эндшпиль" width="600" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); border: 1px solid #30363d;" />
-  </a>
+  <table>
+    <tr>
+      <td align="center" style="padding: 8px;">
+        <a href="https://music.yandex.ru/artist/4611844" target="_blank">
+          <img src="https://i.pinimg.com/736x/11/b8/69/11b869004a82ea35a78bdfda6688b68e.jpg" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: 2px solid #FF4500; box-shadow: 0 0 15px rgba(255,69,0,0.5);" alt="Miyagi & Эндшпиль"/>
+        </a>
+        <br/>
+        <sub style="font-size: 10px; color: #C9D1D9;">Miyagi & Эндшпиль</sub>
+      </td>
+      <td align="center" style="padding: 8px;">
+        <a href="https://music.yandex.ru/artist/6766971" target="_blank">
+          <img src="https://i.pinimg.com/736x/a8/8a/fa/a88afaf10f61baa56d2560f78891c049.jpg" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: 2px solid #AFEEEE; box-shadow: 0 0 15px rgba(175,238,238,0.5);" alt="MACAN"/>
+        </a>
+        <br/>
+        <sub style="font-size: 10px; color: #C9D1D9;">MACAN</sub>
+      </td>
+      <td align="center" style="padding: 8px;">
+        <a href="https://music.yandex.ru/artist/41191" target="_blank">
+          <img src="https://i.pinimg.com/736x/56/8e/5e/568e5e3fe9cf4ca45e6bcd2718ff6fdc.jpg" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: 2px solid #FFD700; box-shadow: 0 0 15px rgba(255,215,0,0.5);" alt="Баста"/>
+        </a>
+        <br/>
+        <sub style="font-size: 10px; color: #C9D1D9;">Баста</sub>
+      </td>
+      <td align="center" style="padding: 8px;">
+        <a href="https://music.yandex.ru/artist/158454" target="_blank">
+          <img src="https://i.pinimg.com/736x/d6/94/db/d694dbc1414a1431e319264294e16c4a.jpg" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: 2px solid #8A2BE2; box-shadow: 0 0 15px rgba(138,43,226,0.5);" alt="Скриптонит"/>
+        </a>
+        <br/>
+        <sub style="font-size: 10px; color: #C9D1D9;">Скриптонит</sub>
+      </td>
+    </tr>
+  </table>
   <br/>
-  <img src="https://img.shields.io/badge/Miyagi%20%26%20Эндшпиль-FF4500?style=flat-square&logo=yandexmusic&logoColor=white" alt="Miyagi & Эндшпиль" />
   <img src="https://img.shields.io/badge/Hajime%20Records-000000?style=flat-square&logo=bandcamp&logoColor=white" alt="Hajime Records" />
 </div>
 
 <br/>
-
 <!-- ===== TECH STACK ===== -->
 <h3 align="center">🛠️ Tech Stack</h3>
 
