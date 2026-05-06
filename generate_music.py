@@ -1,14 +1,13 @@
 import svgwrite
 import requests
 import os
-import io
+import base64
 
-def download_image(url, size=(120, 120)):
+def download_image(url):
     """Скачивает фото и возвращает base64 для вставки в SVG"""
     try:
-        r = requests.get(url, timeout=10)
+        r = requests.get(url, timeout=15)
         if r.status_code == 200:
-            import base64
             return f"data:image/jpeg;base64,{base64.b64encode(r.content).decode()}"
     except:
         pass
@@ -37,7 +36,7 @@ def create_artists_svg():
             "color": "#FFD700"
         },
         {
-            "name": "GUF",
+            "name": "ГУФ",
             "url": "https://music.yandex.ru/artist/158454",
             "photo": "https://i.pinimg.com/736x/d6/94/db/d694dbc1414a1431e319264294e16c4a.jpg",
             "color": "#8A2BE2"
@@ -48,51 +47,61 @@ def create_artists_svg():
     height = 220
     dwg = svgwrite.Drawing("assets/artists.svg", size=(f"{width}px", f"{height}px"), profile='full')
 
-    # Фон (прозрачный или под тёмную тему)
+    # Фон (под тёмную тему)
     dwg.add(dwg.rect(insert=(0, 0), size=("100%", "100%"), fill="#0D1117", rx=12))
 
-    # Добавляем определения для свечения (drop-shadow)
+    # Добавляем определения для свечения
     defs = dwg.defs
     for i, artist in enumerate(artists):
-        # Фильтр для тени
         filter_id = f"glow_{i}"
         glow = dwg.filter(id=filter_id, x="-30%", y="-30%", width="160%", height="160%")
-        glow.feGaussianBlur(in_="SourceAlpha", stdDeviation="6", result="blur")
-        glow.feFlood(flood_color=artist["color"], flood_opacity="0.8", result="color")
-        glow.feComposite(in_="color", in2="blur", operator="in", result="glow")
-        glow.feMerge()
-        glow.feMergeNode(in_="glow")
-        glow.feMergeNode(in_="SourceGraphic")
+
+        blur = dwg.feGaussianBlur(in_="SourceAlpha", stdDeviation="6", result="blur")
+        glow.add(blur)
+
+        flood = dwg.feFlood(flood_color=artist["color"], flood_opacity="0.8", result="color")
+        glow.add(flood)
+
+        composite = dwg.feComposite(in_="color", in2="blur", operator="in", result="glow")
+        glow.add(composite)
+
+        merge = dwg.feMerge()
+        merge.add(dwg.feMergeNode(in_="glow"))
+        merge.add(dwg.feMergeNode(in_="SourceGraphic"))
+        glow.add(merge)
+
         defs.add(glow)
 
     # Рисуем каждого артиста
     for i, artist in enumerate(artists):
-        cx = 100 + i * 160           # центр аватарки
-        cy_logo = 70                  # центр круга
-        cy_text = 180                 # позиция текста
+        cx = 100 + i * 160
+        cy_logo = 70
+        cy_text = 180
 
-        # Обводка (внешний круг)
-        dwg.add(dwg.circle(center=(cx, cy_logo), r=65, fill="none", stroke=artist["color"], stroke_width=3))
+        # Внешний светящийся круг
+        dwg.add(dwg.circle(center=(cx, cy_logo), r=65, fill="none",
+                           stroke=artist["color"], stroke_width=3,
+                           filter=f"url(#glow_{i})"))
 
-        # Фото (круг, обрезанный clip-path)
+        # Фото (круг через clip-path)
         clip_id = f"clip_{i}"
         clip = dwg.defs.add(dwg.clipPath(id=clip_id))
         clip.add(dwg.circle(center=(cx, cy_logo), r=62))
 
         photo_b64 = download_image(artist["photo"])
         if photo_b64:
-            img = dwg.image(href=photo_b64, insert=(cx-62, cy_logo-62), width=124, height=124, clip_path=f"url(#{clip_id})")
-            dwg.add(img)
+            dwg.add(dwg.image(href=photo_b64, insert=(cx-62, cy_logo-62),
+                              width=124, height=124, clip_path=f"url(#{clip_id})"))
         else:
-            # fallback если не скачалось
-            dwg.add(dwg.circle(center=(cx, cy_logo), r=62, fill="#30363D", clip_path=f"url(#{clip_id})"))
+            dwg.add(dwg.circle(center=(cx, cy_logo), r=62, fill="#30363D",
+                               clip_path=f"url(#{clip_id})"))
 
         # Имя артиста
         dwg.add(dwg.text(artist["name"], insert=(cx, cy_text), fill=artist["color"],
-                         font_size="14", font_weight="bold", text_anchor="middle", font_family="monospace",
-                         filter=f"url(#glow_{i})"))
+                         font_size="14", font_weight="bold", text_anchor="middle",
+                         font_family="monospace", filter=f"url(#glow_{i})"))
 
-    # Бейджи лейблов снизу
+    # Бейджи лейблов
     dwg.add(dwg.text("Hajime Records  •  Gazgolder", insert=(width//2, 205),
                      fill="#6C7A89", font_size="10", text_anchor="middle", font_family="monospace"))
 
