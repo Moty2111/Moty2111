@@ -31,7 +31,7 @@
       <td style="background: rgba(22, 27, 34, 0.7); border-radius: 10px; padding: 12px; backdrop-filter: blur(4px); border: 1px solid #30363d;">
         <ul style="list-style-type: none; padding-left: 0; margin: 0; font-size: 13px;">
           <li>🎓 <b>Студент fullstack‑разработчик</b></li>
-          <li>🌱 Сейчас изучаю <b>React, Django, Node.js</b> и проектирование БД.</li>
+          <li>🌱 Сейчас изучаю <b>React,Node.js</b> и проектирование БД.</li>
           <li>🎯 <b>Цель:</b> глубже понять структуры языков и принципы проектирования.</li>
           <li>💬 Открыт к конструктивной критике и интересным беседам!</li>
         </ul>
@@ -72,12 +72,11 @@
 </p>
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 4px;">
-  <img src="https://img.shields.io/badge/Python-★★★★☆-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-★★★★☆-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/React-★★★☆☆-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Django-★★★☆☆-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/Python-★★★☆☆-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-★★★☆☆-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-★★☆☆☆-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/C%23-★★★☆☆-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/SQL-★★★★☆-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/SQL-★★☆☆☆-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
 </div>
 
 <br/>
