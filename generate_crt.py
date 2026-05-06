@@ -18,18 +18,18 @@ def create_crt_svg(username="Moty2111"):
             commits = sum(1 for e in events if e.get("type")=="PushEvent")
     except: pass
 
-    dwg = svgwrite.Drawing("assets/crt-stats.svg", size=(400,200))
+    dwg = svgwrite.Drawing("assets/crt-stats.svg", size=(420,200))
     dwg.add(dwg.rect(insert=(0,0), size=("100%","100%"), fill="#0D1117", rx=8))
-    # линии развёртки
     for y in range(0,200,3):
-        dwg.add(dwg.rect(insert=(0,y), size=(400,1), fill="#ffffff", opacity=0.05))
-    # текст в стиле терминала
-    dwg.add(dwg.text("📺 CRT MONITOR", insert=(200,30), fill="#00FF41", font_size="16", font_weight="bold", text_anchor="middle", font_family="monospace"))
-    dwg.add(dwg.text(f"> Repos: {repos}", insert=(40,60), fill="#00FF41", font_size="11", font_family="monospace"))
-    dwg.add(dwg.text(f"> Followers: {followers}", insert=(40,82), fill="#00FF41", font_size="11", font_family="monospace"))
-    dwg.add(dwg.text(f"> Recent commits: {commits}", insert=(40,104), fill="#00FF41", font_size="11", font_family="monospace"))
-    dwg.add(dwg.text("> STATUS: ONLINE", insert=(40,126), fill="#00FF41", font_size="11", font_family="monospace"))
-    dwg.add(dwg.text("UPDATED EVERY 8 HOURS", insert=(200,170), fill="#006600", font_size="8", text_anchor="middle"))
+        dwg.add(dwg.rect(insert=(0,y), size=(420,1), fill="#ffffff", opacity=0.05))
+    # Заголовок крупнее
+    dwg.add(dwg.text("📺 CRT MONITOR", insert=(210,35), fill="#00FF41", font_size="20", font_weight="bold", text_anchor="middle", font_family="monospace"))
+    # Строки крупнее
+    dwg.add(dwg.text(f"> Repos: {repos}", insert=(40,70), fill="#00FF41", font_size="16", font_family="monospace"))
+    dwg.add(dwg.text(f"> Followers: {followers}", insert=(40,98), fill="#00FF41", font_size="16", font_family="monospace"))
+    dwg.add(dwg.text(f"> Recent commits: {commits}", insert=(40,126), fill="#00FF41", font_size="16", font_family="monospace"))
+    dwg.add(dwg.text("> STATUS: ONLINE", insert=(40,154), fill="#00FF41", font_size="16", font_family="monospace"))
+    dwg.add(dwg.text("UPDATED EVERY 8 HOURS", insert=(210,185), fill="#006600", font_size="10", text_anchor="middle"))
     dwg.save()
 
 if __name__=="__main__":
