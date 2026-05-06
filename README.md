@@ -49,47 +49,11 @@
 </div>
 <br/>
 
-<!-- ===== МУЗЫКАЛЬНЫЙ БАННЕР: ЛЮБИМЫЕ АРТИСТЫ (КРУГЛЫЕ АВАТАРКИ С ПОДСВЕТКОЙ) ===== -->
+<!-- ===== ЛЮБИМЫЕ АРТИСТЫ (SVG-АВАТАРКИ) ===== -->
 <h3 align="center">🎧 В ушах сейчас</h3>
-
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" style="padding: 12px;">
-        <a href="https://music.yandex.ru/artist/4611844" target="_blank">
-          <img src="https://i.pinimg.com/736x/11/b8/69/11b869004a82ea35a78bdfda6688b68e.jpg" width="120" height="120" style="border-radius: 50%; object-fit: cover; border: 3px solid #FF4500; box-shadow: 0 0 25px rgba(255,69,0,0.8), 0 0 50px rgba(255,69,0,0.4);" alt="Miyagi & Эндшпиль"/>
-        </a>
-        <br/>
-        <sub style="font-size: 12px; color: #FF4500; font-weight: bold; text-shadow: 0 0 10px rgba(255,69,0,0.8);">Miyagi & Эндшпиль</sub>
-      </td>
-      <td align="center" style="padding: 12px;">
-        <a href="https://music.yandex.ru/artist/6766971" target="_blank">
-          <img src="https://i.pinimg.com/736x/a8/8a/fa/a88afaf10f61baa56d2560f78891c049.jpg" width="120" height="120" style="border-radius: 50%; object-fit: cover; border: 3px solid #AFEEEE; box-shadow: 0 0 25px rgba(175,238,238,0.8), 0 0 50px rgba(175,238,238,0.4);" alt="УННВ"/>
-        </a>
-        <br/>
-        <sub style="font-size: 12px; color: #AFEEEE; font-weight: bold; text-shadow: 0 0 10px rgba(175,238,238,0.8);">УННВ</sub>
-      </td>
-      <td align="center" style="padding: 12px;">
-        <a href="https://music.yandex.ru/artist/41191" target="_blank">
-          <img src="https://i.pinimg.com/736x/56/8e/5e/568e5e3fe9cf4ca45e6bcd2718ff6fdc.jpg" width="120" height="120" style="border-radius: 50%; object-fit: cover; border: 3px solid #FFD700; box-shadow: 0 0 25px rgba(255,215,0,0.8), 0 0 50px rgba(255,215,0,0.4);" alt="Баста"/>
-        </a>
-        <br/>
-        <sub style="font-size: 12px; color: #FFD700; font-weight: bold; text-shadow: 0 0 10px rgba(255,215,0,0.8);">Баста</sub>
-      </td>
-      <td align="center" style="padding: 12px;">
-        <a href="https://music.yandex.ru/artist/158454" target="_blank">
-          <img src="https://i.pinimg.com/736x/d6/94/db/d694dbc1414a1431e319264294e16c4a.jpg" width="120" height="120" style="border-radius: 50%; object-fit: cover; border: 3px solid #8A2BE2; box-shadow: 0 0 25px rgba(138,43,226,0.8), 0 0 50px rgba(138,43,226,0.4);" alt="GUF"/>
-        </a>
-        <br/>
-        <sub style="font-size: 12px; color: #8A2BE2; font-weight: bold; text-shadow: 0 0 10px rgba(138,43,226,0.8);">ГУФ</sub>
-      </td>
-    </tr>
-  </table>
-  <br/>
-  <img src="https://img.shields.io/badge/Hajime%20Records-000000?style=flat-square&logo=bandcamp&logoColor=white" alt="Hajime Records" />
-  <img src="https://img.shields.io/badge/Gazgolder-FFD700?style=flat-square&logo=yandexmusic&logoColor=black" alt="Gazgolder" />
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/artists.svg" width="90%" alt="Любимые артисты" />
 </div>
-
 <br/>
 
 <!-- ===== TECH STACK ===== -->
