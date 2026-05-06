@@ -234,13 +234,13 @@
     <tr>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
         <h4>📝 Редакторы</h4>
-        <img src="https://skillicons.dev/icons?i=vscode,vim,idea,pycharm" alt="editors" /><br/>
-        <sub style="font-size: 11px;">VS Code • Vim • IntelliJ • PyCharm</sub>
+        <img src="https://skillicons.dev/icons?i=vscode,vs" alt="editors" /><br/>
+        <sub style="font-size: 11px;">VS Code • VS </sub>
       </td>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
         <h4>🔄 DevOps</h4>
-        <img src="https://skillicons.dev/icons?i=docker,git,githubactions,gitlab" alt="devops" /><br/>
-        <sub style="font-size: 11px;">Docker • Git • GitHub Actions • GitLab</sub>
+        <img src="https://skillicons.dev/icons?i=docker,git,githubactions," alt="devops" /><br/>
+        <sub style="font-size: 11px;">Docker • Git • GitHub Actions</sub>
       </td>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
         <h4>☁️ Deploy</h4>
