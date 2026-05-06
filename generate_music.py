@@ -7,7 +7,8 @@ def download_image(url):
     try:
         r = requests.get(url, timeout=15)
         if r.status_code == 200:
-            return f"image/jpeg;base64,{base64.b64encode(r.content).decode()}"
+            # Добавлен префикс "data:"
+            return f"data:image/jpeg;base64,{base64.b64encode(r.content).decode()}"
     except:
         pass
     return None
@@ -60,10 +61,15 @@ def create_artists_svg():
 
         photo_b64 = download_image(artist["photo"])
         if photo_b64:
+            # Добавлено preserveAspectRatio для правильного отображения
             dwg.add(dwg.image(href=photo_b64, insert=(cx-62, cy_logo-62),
-                              width=124, height=124, clip_path=f"url(#{clip_id})"))
+                              width=124, height=124, 
+                              clip_path=f"url(#{clip_id})",
+                              preserveAspectRatio="xMidYMid slice"))
         else:
-            dwg.add(dwg.circle(center=(cx, cy_logo), r=62, fill="#30363D", clip_path=f"url(#{clip_id})"))
+            # Запасной круг если фото не загрузилось
+            dwg.add(dwg.circle(center=(cx, cy_logo), r=62, fill="#30363D", 
+                              clip_path=f"url(#{clip_id})"))
 
         # имя артиста с тем же фильтром
         dwg.add(dwg.text(artist["name"], insert=(cx, cy_text), fill=artist["color"],
