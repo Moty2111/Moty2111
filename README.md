@@ -73,33 +73,6 @@
 
 <br/>
 
-<!-- ===== ACHIEVEMENTS ===== -->
-<h3 align="center">🏆 Мои достижения</h3>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
-        <b>🥇 GitHub Contributor</b><br/>
-        <sub>Активные коммиты</sub><br/>
-        <img src="https://img.shields.io/badge/Level-Gold-FFD700?style=flat-square" alt="Gold" />
-      </td>
-      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
-        <b>🔨 Project Builder</b><br/>
-        <sub>8+ репозиториев</sub><br/>
-        <img src="https://img.shields.io/badge/Repos-8+-blue?style=flat-square" alt="Repos" />
-      </td>
-      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
-        <b>📚 Fast Learner</b><br/>
-        <sub>6+ языков</sub><br/>
-        <img src="https://img.shields.io/badge/Languages-6-green?style=flat-square" alt="Languages" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
 <!-- ===== FEATURED REPOSITORIES ===== -->
 <h3 align="center">📌 Избранные проекты</h3>
 
