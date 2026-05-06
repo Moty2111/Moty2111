@@ -33,15 +33,18 @@ def create_rpg_svg(username="Moty2111"):
     ]
     y = 65
     for label, val in stats:
+        # название слева
         dwg.add(dwg.text(label, insert=(100, y), fill="#FFFFFF", font_size="14", font_family="monospace"))
+        # полоса прогресса
         dwg.add(dwg.rect(insert=(180, y - 10), size=(160, 12), rx=4, fill="#30363D"))
         bar_w = int(160 * val / 100)
         if bar_w > 0:
             color = f"#{hex(255 - int(255 * val / 100))[2:].zfill(2)}{hex(100 + int(155 * val / 100))[2:].zfill(2)}00" if val < 100 else "#58A6FF"
             dwg.add(dwg.rect(insert=(180, y - 10), size=(bar_w, 12), rx=4, fill=color))
+        # значение справа от полосы
         dwg.add(dwg.text(str(val), insert=(350, y), fill="#FFFFFF", font_size="12", text_anchor="middle",
                          font_family="monospace"))
-        y += 30
+        y += 32
     dwg.add(dwg.text("UPDATED EVERY 8 HOURS", insert=(210, 200), fill="#6C7A89", font_size="10",
                      text_anchor="middle", font_family="monospace"))
     dwg.save()
