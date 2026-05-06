@@ -41,7 +41,7 @@
 <br/>
 
 <!-- ===== СУПЕРСТИЛЬНАЯ ЦИТАТА ===== -->
-<h3 align="center">💬 Forever in my heart</h3>
+<h3 align="center">💬 В моём сердце</h3>
 <div align="center">
   <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/quote.svg" width="90%" alt="Цитата" />
 </div>
