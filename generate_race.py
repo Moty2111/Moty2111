@@ -28,20 +28,23 @@ def create_race_svg(username="Moty2111"):
     # Заголовок
     dwg.add(dwg.text("🏎️ RACE PROGRESS", insert=(210, 30), fill="#FFD700", font_size="18", font_weight="bold",
                      text_anchor="middle", font_family="monospace"))
-    # Трасса
-    dwg.add(dwg.rect(insert=(40, 70), size=(340, 14), rx=7, fill="#30363D"))
+    # Трасса (полоса)
+    bar_y = 80   # фиксированная высота полосы
+    dwg.add(dwg.rect(insert=(40, bar_y), size=(340, 14), rx=7, fill="#30363D"))
     bar_w = int(340 * progress / 100)
     if bar_w > 0:
-        dwg.add(dwg.rect(insert=(40, 70), size=(bar_w, 14), rx=7, fill="#FF4500"))
-        dwg.add(dwg.text("🏎️", insert=(40 + bar_w, 62), font_size="22", text_anchor="middle"))
-        dwg.add(dwg.text(f"{progress}%", insert=(40 + bar_w, 52), fill="#FFD700", font_size="14",
+        dwg.add(dwg.rect(insert=(40, bar_y), size=(bar_w, 14), rx=7, fill="#FF4500"))
+        # машинка и процент ровно над полосой
+        dwg.add(dwg.text("🏎️", insert=(40 + bar_w, bar_y - 4), font_size="20", text_anchor="middle"))
+        dwg.add(dwg.text(f"{progress}%", insert=(40 + bar_w, bar_y - 16), fill="#FFD700", font_size="14",
                          text_anchor="middle", font_weight="bold"))
-    # Статистика
+    # Статистика под полосой
     stats = f"Commits: {commits}   |   Repos: {repos}   |   Followers: {followers}"
-    dwg.add(dwg.text(stats, insert=(210, 120), fill="#FFFFFF", font_size="14", text_anchor="middle"))
-    # Финиш
-    dwg.add(dwg.text("🏁", insert=(40, 150), font_size="24", text_anchor="middle"))
-    dwg.add(dwg.text("🏁", insert=(380, 150), font_size="24", text_anchor="middle"))
+    dwg.add(dwg.text(stats, insert=(210, 130), fill="#FFFFFF", font_size="14", text_anchor="middle"))
+    # Финишные флаги
+    dwg.add(dwg.text("🏁", insert=(40, 160), font_size="24", text_anchor="middle"))
+    dwg.add(dwg.text("🏁", insert=(380, 160), font_size="24", text_anchor="middle"))
+    # Подпись
     dwg.add(dwg.text("UPDATED EVERY 8 HOURS", insert=(210, 200), fill="#6C7A89", font_size="10",
                      text_anchor="middle", font_style="italic"))
     dwg.save()
