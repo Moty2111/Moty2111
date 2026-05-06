@@ -218,7 +218,7 @@
 <h3 align="center">📊 Краткая статистика</h3>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Repos-11-58A6FF?style=flat-square&logo=github" alt="Repos" />
+  <img src="https://img.shields.io/badge/Repos-9-58A6FF?style=flat-square&logo=github" alt="Repos" />
   <img src="https://img.shields.io/github/stars/Moty2111?style=flat-square&logo=github&label=Stars&color=yellow" alt="Stars" />
   <img src="https://img.shields.io/github/followers/Moty2111?style=flat-square&logo=github&label=Followers&color=blue" alt="Followers" />
   <img src="https://img.shields.io/github/commit-activity/m/Moty2111/Moty2111?style=flat-square&logo=github&label=Commits" alt="Commits" />
