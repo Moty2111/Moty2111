@@ -220,25 +220,22 @@
 
 <br/>
 
-<!-- ===== WORKFLOW & TOOLS ===== -->
+<!-- ===== WORKFLOW & TOOLS (CENTERED) ===== -->
 <h3 align="center">⚙️ Workflow & Инструменты</h3>
 
 <div align="center">
   <table>
     <tr>
-      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
-        <h4>📝 Редакторы</h4>
-        <img src="https://skillicons.dev/icons?i=vscode,vs" alt="editors" /><br/>
-        <sub style="font-size: 11px;">VS Code • VS </sub>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
+        <b>📝 Редакторы</b><br/>
+        <sub style="font-size: 11px;">VS Code • VS</sub>
       </td>
-      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
-        <h4>🔄 DevOps</h4>
-        <img src="https://skillicons.dev/icons?i=docker,git,githubactions," alt="devops" /><br/>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
+        <b>🔄 DevOps</b><br/>
         <sub style="font-size: 11px;">Docker • Git • GitHub Actions</sub>
       </td>
-      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
-        <h4>☁️ Deploy</h4>
-        <img src="https://skillicons.dev/icons?i=vercel,netlify,nginx" alt="deploy" /><br/>
+      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
+        <b>☁️ Deploy</b><br/>
         <sub style="font-size: 11px;">Vercel • Netlify • Nginx</sub>
       </td>
     </tr>
