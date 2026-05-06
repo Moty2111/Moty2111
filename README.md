@@ -220,7 +220,7 @@
 
 <br/>
 
-<!-- ===== WORKFLOW & TOOLS (CENTERED) ===== -->
+<!-- ===== WORKFLOW & TOOLS (С ИКОНКАМИ) ===== -->
 <h3 align="center">⚙️ Workflow & Инструменты</h3>
 
 <div align="center">
@@ -228,14 +228,17 @@
     <tr>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
         <b>📝 Редакторы</b><br/>
+        <img src="https://skillicons.dev/icons?i=vscode,visualstudio" alt="editors" /><br/>
         <sub style="font-size: 11px;">VS Code • VS</sub>
       </td>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
         <b>🔄 DevOps</b><br/>
+        <img src="https://skillicons.dev/icons?i=docker,git,githubactions" alt="devops" /><br/>
         <sub style="font-size: 11px;">Docker • Git • GitHub Actions</sub>
       </td>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
         <b>☁️ Deploy</b><br/>
+        <img src="https://skillicons.dev/icons?i=vercel,netlify,nginx" alt="deploy" /><br/>
         <sub style="font-size: 11px;">Vercel • Netlify • Nginx</sub>
       </td>
     </tr>
