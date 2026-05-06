@@ -302,6 +302,8 @@
   </a>
 </div>
 <br/>
+
+
 <!-- ===== TROPHIES ===== -->
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Moty2111&theme=tokyonight&no-frame=true&column=5&margin-w=10" alt="trophies" />
