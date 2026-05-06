@@ -1,13 +1,13 @@
-import svgwrite
-import requests
-import os
-import base64
+import svgwrite, requests, os, base64
+from svgwrite.filters import Filter, feGaussianBlur, feFlood, feComposite, feMerge, feMergeNode
 
 def download_image(url):
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
     try:
-        r = requests.get(url, timeout=15)
+        r = requests.get(url, timeout=15, headers=headers)
         if r.status_code == 200:
-            # Добавлен префикс "data:"
             return f"data:image/jpeg;base64,{base64.b64encode(r.content).decode()}"
     except:
         pass
@@ -32,51 +32,48 @@ def create_artists_svg():
     dwg = svgwrite.Drawing("assets/artists.svg", size=(f"{width}px", f"{height}px"), profile='full')
     dwg.add(dwg.rect(insert=(0,0), size=("100%","100%"), fill="#0D1117", rx=12))
 
-    # Создаем фильтры
-    filters = []
+    defs = dwg.defs
+
     for i, artist in enumerate(artists):
-        filtr = dwg.filter(id=f"glow_{i}", x="-50%", y="-50%", width="200%", height="200%")
-        filtr.feGaussianBlur(in_="SourceAlpha", stdDeviation="6", result="blur")
-        filtr.feFlood(flood_color=artist["color"], flood_opacity="0.8", result="color")
-        filtr.feComposite(in_="color", in2="blur", operator="in", result="glow")
-        filtr.feMerge(["glow", "SourceGraphic"])
-        dwg.defs.add(filtr)
-        filters.append(filtr)
+        fil = Filter(id=f"glow_{i}", x="-50%", y="-50%", width="200%", height="200%")
+        fil.add(feGaussianBlur(in_="SourceAlpha", stdDeviation="6", result="blur"))
+        fil.add(feFlood(flood_color=artist["color"], flood_opacity="0.8", result="color"))
+        fil.add(feComposite(in_="color", in2="blur", operator="in", result="glow"))
+        merge = feMerge()
+        merge.add(feMergeNode(in_="glow"))
+        merge.add(feMergeNode(in_="SourceGraphic"))
+        fil.add(merge)
+        defs.add(fil)
 
     for i, artist in enumerate(artists):
         cx = 100 + i * 160
         cy_logo = 70
         cy_text = 180
-        filter_iri = filters[i].get_funciri()
 
-        # круг с неоновой обводкой
+        # Неоновый круг
         dwg.add(dwg.circle(center=(cx, cy_logo), r=65, fill="none",
-                           stroke=artist["color"], stroke_width=3, filter=filter_iri))
+                           stroke=artist["color"], stroke_width=3, filter=f"url(#glow_{i})"))
 
-        # фото внутри круга через clipPath
+        # Круглая маска
         clip_id = f"clip_{i}"
         clip = dwg.clipPath(id=clip_id)
         clip.add(dwg.circle(center=(cx, cy_logo), r=62))
-        dwg.defs.add(clip)
+        defs.add(clip)
 
         photo_b64 = download_image(artist["photo"])
         if photo_b64:
-            # Добавлено preserveAspectRatio для правильного отображения
             dwg.add(dwg.image(href=photo_b64, insert=(cx-62, cy_logo-62),
-                              width=124, height=124, 
+                              width=124, height=124,
                               clip_path=f"url(#{clip_id})",
                               preserveAspectRatio="xMidYMid slice"))
         else:
-            # Запасной круг если фото не загрузилось
-            dwg.add(dwg.circle(center=(cx, cy_logo), r=62, fill="#30363D", 
-                              clip_path=f"url(#{clip_id})"))
+            dwg.add(dwg.circle(center=(cx, cy_logo), r=62, fill="#30363D",
+                               clip_path=f"url(#{clip_id})"))
 
-        # имя артиста с тем же фильтром
         dwg.add(dwg.text(artist["name"], insert=(cx, cy_text), fill=artist["color"],
                          font_size="14", font_weight="bold", text_anchor="middle",
-                         font_family="monospace", filter=filter_iri))
+                         font_family="monospace", filter=f"url(#glow_{i})"))
 
-    # надпись лейблов
     dwg.add(dwg.text("Hajime Records  •  Gazgolder", insert=(width//2, 205),
                      fill="#6C7A89", font_size="10", text_anchor="middle", font_family="monospace"))
 
