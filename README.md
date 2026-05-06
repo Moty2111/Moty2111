@@ -55,7 +55,7 @@
 <br/>
 
 <!-- ===== TECH STACK ===== -->
-<h3 align="center">🛠️ Tech Stack</h3>
+<h3 align="center">🛠️ Технический стек</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,js,ts,cs,html,css" alt="languages" />
@@ -238,34 +238,6 @@
         <b>☁️ Deploy</b><br/>
         <img src="https://skillicons.dev/icons?i=vercel,netlify,nginx" alt="deploy" /><br/>
         <sub style="font-size: 11px;">Vercel • Netlify • Nginx</sub>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<!-- ===== МОЙ WORKFLOW ===== -->
-<h3 align="center">🚀 Мой Workflow</h3>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
-        <b>💡 Идея</b><br/>
-        <sub>Анализ задачи</sub>
-      </td>
-      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
-        <b>⌨️ Код</b><br/>
-        <sub>Разработка</sub>
-      </td>
-      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
-        <b>🧪 Тест</b><br/>
-        <sub>Отладка</sub>
-      </td>
-      <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 10px; border: 1px solid #30363d;">
-        <b>🚀 Деплой</b><br/>
-        <sub>Релиз</sub>
       </td>
     </tr>
   </table>
