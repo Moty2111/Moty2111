@@ -1,4 +1,5 @@
 import svgwrite, requests, os, base64
+from svgwrite.filters import Filter, feGaussianBlur, feFlood, feComposite, feMerge, feMergeNode
 
 def download_image(url):
     try:
@@ -19,7 +20,7 @@ def create_artists_svg():
          "photo": "https://i.pinimg.com/736x/a8/8a/fa/a88afaf10f61baa56d2560f78891c049.jpg"},
         {"name": "Баста", "color": "#FFD700",
          "photo": "https://i.pinimg.com/736x/56/8e/5e/568e5e3fe9cf4ca45e6bcd2718ff6fdc.jpg"},
-        {"name": "ГУФ", "color": "#8A2BE2",
+        {"name": "GUF", "color": "#8A2BE2",
          "photo": "https://i.pinimg.com/736x/d6/94/db/d694dbc1414a1431e319264294e16c4a.jpg"},
     ]
 
@@ -29,15 +30,19 @@ def create_artists_svg():
     dwg.add(dwg.rect(insert=(0,0), size=("100%","100%"), fill="#0D1117", rx=12))
 
     defs = dwg.defs
+
     for i, artist in enumerate(artists):
-        fil = dwg.filter(id=f"glow_{i}", x="-50%", y="-50%", width="200%", height="200%")
-        fil.add(dwg.feGaussianBlur(in_="SourceAlpha", stdDeviation="6", result="blur"))
-        fil.add(dwg.feFlood(flood_color=artist["color"], flood_opacity="0.8", result="color"))
-        fil.add(dwg.feComposite(in_="color", in2="blur", operator="in", result="glow"))
-        merge = dwg.feMerge()
-        merge.add(dwg.feMergeNode(in_="glow"))
-        merge.add(dwg.feMergeNode(in_="SourceGraphic"))
+        # Создаём фильтр свечения
+        fil = Filter(id=f"glow_{i}", x="-50%", y="-50%", width="200%", height="200%")
+        fil.add(feGaussianBlur(in_="SourceAlpha", stdDeviation="6", result="blur"))
+        fil.add(feFlood(flood_color=artist["color"], flood_opacity="0.8", result="color"))
+        fil.add(feComposite(in_="color", in2="blur", operator="in", result="glow"))
+
+        merge = feMerge()
+        merge.add(feMergeNode(in_="glow"))
+        merge.add(feMergeNode(in_="SourceGraphic"))
         fil.add(merge)
+
         defs.add(fil)
 
     for i, artist in enumerate(artists):
@@ -45,11 +50,11 @@ def create_artists_svg():
         cy_logo = 70
         cy_text = 180
 
-        # круг с неоновой обводкой
+        # Внешний неоновый круг
         dwg.add(dwg.circle(center=(cx, cy_logo), r=65, fill="none",
                            stroke=artist["color"], stroke_width=3, filter=f"url(#glow_{i})"))
 
-        # фото внутри круга через clipPath
+        # Круглая маска для фото
         clip_id = f"clip_{i}"
         clip = dwg.clipPath(id=clip_id)
         clip.add(dwg.circle(center=(cx, cy_logo), r=62))
@@ -62,12 +67,12 @@ def create_artists_svg():
         else:
             dwg.add(dwg.circle(center=(cx, cy_logo), r=62, fill="#30363D", clip_path=f"url(#{clip_id})"))
 
-        # имя артиста с тем же фильтром
+        # Имя артиста
         dwg.add(dwg.text(artist["name"], insert=(cx, cy_text), fill=artist["color"],
                          font_size="14", font_weight="bold", text_anchor="middle",
                          font_family="monospace", filter=f"url(#glow_{i})"))
 
-    # надпись лейблов
+    # Лейблы
     dwg.add(dwg.text("Hajime Records  •  Gazgolder", insert=(width//2, 205),
                      fill="#6C7A89", font_size="10", text_anchor="middle", font_family="monospace"))
 
