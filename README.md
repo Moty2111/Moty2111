@@ -49,33 +49,10 @@
 </div>
 <br/>
 
-<!-- ===== ЛЮБИМЫЕ АРТИСТЫ (ВРЕМЕННЫЙ БЛОК С БЕЙДЖАМИ) ===== -->
+<!-- ===== ЛЮБИМЫЕ АРТИСТЫ (SVG-АВАТАРКИ) ===== -->
 <h3 align="center">🎧 В ушах сейчас</h3>
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" style="padding: 10px;">
-        <a href="https://music.yandex.ru/artist/4611844" target="_blank">
-          <img src="https://img.shields.io/badge/Miyagi%20%26%20Эндшпиль-FF4500?style=for-the-badge&logo=yandexmusic&logoColor=white" alt="Miyagi & Эндшпиль"/>
-        </a>
-      </td>
-      <td align="center" style="padding: 10px;">
-        <a href="https://music.yandex.ru/artist/6766971" target="_blank">
-          <img src="https://img.shields.io/badge/УННВ-AFEEEE?style=for-the-badge&logo=yandexmusic&logoColor=white" alt="УННВ"/>
-        </a>
-      </td>
-      <td align="center" style="padding: 10px;">
-        <a href="https://music.yandex.ru/artist/41191" target="_blank">
-          <img src="https://img.shields.io/badge/Баста-FFD700?style=for-the-badge&logo=yandexmusic&logoColor=white" alt="Баста"/>
-        </a>
-      </td>
-      <td align="center" style="padding: 10px;">
-        <a href="https://music.yandex.ru/artist/158454" target="_blank">
-          <img src="https://img.shields.io/badge/ГУФ-8A2BE2?style=for-the-badge&logo=yandexmusic&logoColor=white" alt="ГУФ"/>
-        </a>
-      </td>
-    </tr>
-  </table>
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/artists.svg" width="90%" alt="Любимые артисты" />
 </div>
 <br/>
 
@@ -220,7 +197,7 @@
 </div>
 <br/>
 
-<!-- ===== НЕОНОВАЯ ЗМЕЙКА ===== -->
+<!-- ===== НЕОНОВАЯ ЗМЕЙКА (ОБНОВЛЯЕТСЯ КАЖДЫЙ ДЕНЬ) ===== -->
 <h3 align="center">🐍 Мои коммиты </h3>
 
 <div align="center">
@@ -243,7 +220,7 @@
 
 <br/>
 
-<!-- ===== WORKFLOW & TOOLS (С ИКОНКАМИ) ===== -->
+<!-- ===== WORKFLOW & TOOLS (CENTERED) ===== -->
 <h3 align="center">⚙️ Workflow & Инструменты</h3>
 
 <div align="center">
@@ -251,17 +228,14 @@
     <tr>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
         <b>📝 Редакторы</b><br/>
-        <img src="https://skillicons.dev/icons?i=vscode,visualstudio" alt="editors" /><br/>
         <sub style="font-size: 11px;">VS Code • VS</sub>
       </td>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
         <b>🔄 DevOps</b><br/>
-        <img src="https://skillicons.dev/icons?i=docker,git,githubactions" alt="devops" /><br/>
         <sub style="font-size: 11px;">Docker • Git • GitHub Actions</sub>
       </td>
       <td align="center" style="background: rgba(22,27,34,0.6); border-radius: 10px; padding: 12px; border: 1px solid #30363d;">
         <b>☁️ Deploy</b><br/>
-        <img src="https://skillicons.dev/icons?i=vercel,netlify,nginx" alt="deploy" /><br/>
         <sub style="font-size: 11px;">Vercel • Netlify • Nginx</sub>
       </td>
     </tr>
