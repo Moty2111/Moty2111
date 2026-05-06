@@ -302,12 +302,6 @@
   </a>
 </div>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Moty2111&style=flat-square&color=58A6FF" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/Moty2111?label=Followers&style=flat-square&color=58A6FF" alt="followers" />
-</div>
-<br/>
-
 <!-- ===== TROPHIES ===== -->
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Moty2111&theme=tokyonight&no-frame=true&column=5&margin-w=10" alt="trophies" />
