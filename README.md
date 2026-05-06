@@ -67,7 +67,7 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,js,ts,cs,html,css" alt="languages" />
-  <img src="https://skillicons.dev/icons?i=react,vue,django,nodejs,git,github" alt="frameworks" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,git,github" alt="frameworks" />
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,tailwind,figma" alt="tools" />
 </p>
 
