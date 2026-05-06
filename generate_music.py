@@ -7,7 +7,7 @@ def download_image(url):
     try:
         r = requests.get(url, timeout=15)
         if r.status_code == 200:
-            return f"data:image/jpeg;base64,{base64.b64encode(r.content).decode()}"
+            return f"image/jpeg;base64,{base64.b64encode(r.content).decode()}"
     except:
         pass
     return None
@@ -38,9 +38,7 @@ def create_artists_svg():
         filtr.feGaussianBlur(in_="SourceAlpha", stdDeviation="6", result="blur")
         filtr.feFlood(flood_color=artist["color"], flood_opacity="0.8", result="color")
         filtr.feComposite(in_="color", in2="blur", operator="in", result="glow")
-        merge = filtr.feMerge()
-        merge.feMergeNode(in_="glow")
-        merge.feMergeNode(in_="SourceGraphic")
+        filtr.feMerge(["glow", "SourceGraphic"])
         dwg.defs.add(filtr)
         filters.append(filtr)
 
