@@ -301,7 +301,7 @@
     <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/icons/email.svg" width="100" alt="Email" style="margin: 0 5px; border-radius: 12px;"/>
   </a>
 </div>
-
+<br/>
 <!-- ===== TROPHIES ===== -->
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Moty2111&theme=tokyonight&no-frame=true&column=5&margin-w=10" alt="trophies" />
