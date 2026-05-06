@@ -1,5 +1,7 @@
-import svgwrite, requests, os, base64
-from svgwrite.filters import Filter, feGaussianBlur, feFlood, feComposite, feMerge, feMergeNode
+import svgwrite
+import requests
+import os
+import base64
 
 def download_image(url):
     headers = {
@@ -32,18 +34,14 @@ def create_artists_svg():
     dwg = svgwrite.Drawing("assets/artists.svg", size=(f"{width}px", f"{height}px"), profile='full')
     dwg.add(dwg.rect(insert=(0,0), size=("100%","100%"), fill="#0D1117", rx=12))
 
-    defs = dwg.defs
-
+    # Создаем фильтры для каждого артиста
     for i, artist in enumerate(artists):
-        fil = Filter(id=f"glow_{i}", x="-50%", y="-50%", width="200%", height="200%")
-        fil.add(feGaussianBlur(in_="SourceAlpha", stdDeviation="6", result="blur"))
-        fil.add(feFlood(flood_color=artist["color"], flood_opacity="0.8", result="color"))
-        fil.add(feComposite(in_="color", in2="blur", operator="in", result="glow"))
-        merge = feMerge()
-        merge.add(feMergeNode(in_="glow"))
-        merge.add(feMergeNode(in_="SourceGraphic"))
-        fil.add(merge)
-        defs.add(fil)
+        filtr = dwg.filter(id=f"glow_{i}", x="-50%", y="-50%", width="200%", height="200%")
+        filtr.feGaussianBlur(in_="SourceAlpha", stdDeviation="6", result="blur")
+        filtr.feFlood(flood_color=artist["color"], flood_opacity="0.8", result="color")
+        filtr.feComposite(in_="color", in2="blur", operator="in", result="glow")
+        filtr.feMerge(["glow", "SourceGraphic"])  # передаём список слоёв
+        dwg.defs.add(filtr)
 
     for i, artist in enumerate(artists):
         cx = 100 + i * 160
@@ -58,7 +56,7 @@ def create_artists_svg():
         clip_id = f"clip_{i}"
         clip = dwg.clipPath(id=clip_id)
         clip.add(dwg.circle(center=(cx, cy_logo), r=62))
-        defs.add(clip)
+        dwg.defs.add(clip)
 
         photo_b64 = download_image(artist["photo"])
         if photo_b64:
