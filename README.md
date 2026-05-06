@@ -205,7 +205,7 @@
 <br/>
 
 <!-- ===== НЕОНОВАЯ ЗМЕЙКА (ОБНОВЛЯЕТСЯ КАЖДЫЙ ДЕНЬ) ===== -->
-<h3 align="center">🐍 Мои коммиты оживают</h3>
+<h3 align="center">🐍 Мои коммиты </h3>
 
 <div align="center">
   <a href="https://github.com/Moty2111/Moty2111/blob/output/snake.svg">
