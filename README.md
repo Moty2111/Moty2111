@@ -11,15 +11,6 @@
 </div>
 
 <br/>
-
-<!-- ===== STACK UNIVERSE (3D SOLAR SYSTEM) ===== -->
-<div align="center">
-  <a href="https://stack-universe.vercel.app/universe/Moty2111">
-    <img src="https://stack-universe.vercel.app/api/embed-v2/moty2111?v=1" alt="My 3D Code Universe" width="540" />
-  </a>
-</div>
-<br/>
-
 <!-- ===== ABOUT SECTION ===== -->
 <h2 align="center">
   👨‍💻 Обо мне
@@ -40,6 +31,13 @@
   </table>
 </div>
 
+<br/>
+<!-- ===== STACK UNIVERSE (3D SOLAR SYSTEM) ===== -->
+<div align="center">
+  <a href="https://stack-universe.vercel.app/universe/Moty2111">
+    <img src="https://stack-universe.vercel.app/api/embed-v2/moty2111?v=1" alt="My 3D Code Universe" width="540" />
+  </a>
+</div>
 <br/>
 
 <!-- ===== СУПЕРСТИЛЬНАЯ ЦИТАТА ===== -->
