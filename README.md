@@ -30,13 +30,7 @@
   <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/artists.svg?v=2" width="90%" alt="Любимые артисты" />
 </div>
 
-## 💬 В моём сердце
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/quote.svg?v=2" width="90%" alt="Цитата дня" />
-</div>
-
-<div align="center"><sub>Оба блока рисуются Python-скриптами и обновляются сами — артисты раз в неделю, цитата каждые 12 часов через GitHub Actions.</sub></div>
+<div align="center"><sub>Блок рисуется Python-скриптом и обновляется сам — раз в неделю через GitHub Actions.</sub></div>
 
 ---
 
