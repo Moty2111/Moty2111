@@ -24,6 +24,22 @@
 
 ---
 
+## 🎧 В ушах сейчас
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/artists.svg?v=2" width="90%" alt="Любимые артисты" />
+</div>
+
+## 💬 В моём сердце
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/quote.svg?v=2" width="90%" alt="Цитата дня" />
+</div>
+
+<div align="center"><sub>Оба блока рисуются Python-скриптами и обновляются сами — артисты раз в неделю, цитата каждые 12 часов через GitHub Actions.</sub></div>
+
+---
+
 ## 🚀 Что я делаю
 
 - **Веб-приложения** — React + TypeScript на клиенте, ASP.NET Core и SQL Server на сервере
@@ -61,6 +77,22 @@
 <img src="https://moty2111.github.io/portfolio/assets/shots/monopolist-card.jpg" width="32%" alt="Monopolist" />
 <img src="https://moty2111.github.io/portfolio/assets/shots/katuysha-card.jpg" width="32%" alt="Katuysha" />
 
+</div>
+
+## 🎮 Игровая статистика
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/race-stats.svg?v=2" width="32%" alt="Гоночный прогресс" />
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/rpg-stats.svg?v=2" width="32%" alt="RPG-статы" />
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/crt-stats.svg?v=2" width="32%" alt="CRT-эффект" />
+</div>
+
+## 🐍 Мои коммиты
+
+<div align="center">
+  <a href="https://github.com/Moty2111/Moty2111/blob/output/snake.svg">
+    <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/output/snake.svg" width="90%" alt="Змейка из коммитов" />
+  </a>
 </div>
 
 ## 📁 Все работы
