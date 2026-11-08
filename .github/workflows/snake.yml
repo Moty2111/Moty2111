@@ -2,36 +2,32 @@ name: 🐍 Neon Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      - master
 
 permissions:
   contents: write
+
+concurrency:
+  group: profile-snake
+  cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
-      - name: 📥 Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
 
-      - name: 🎨 Generate bright neon snake
+      - name: Generate neon snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg?color_snake=#FF1493&color_dots=#00FFFF,#00FFCC,#FFD700,#FF4500,#FF1493&dark_bg=0D1117
 
-      - name: 🚀 Deploy to output branch
+      - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -39,5 +35,5 @@ jobs:
           publish_branch: output
           force_orphan: true
           commit_message: "🐍 Update neon snake"
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"

@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img"
+     aria-label="Game stats: 429 commits this year, level 11, 19 repositories">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b69bff" />
+      <stop offset="0.5" stop-color="#6fe7f5" />
+      <stop offset="1" stop-color="#ffa4cf" />
+    </linearGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff" />
+      <stop offset="0.55" stop-color="#33d6ea" />
+      <stop offset="1" stop-color="#ff7fbf" />
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.12" cy="0" r="0.9">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.95" cy="1" r="0.8">
+      <stop offset="0" stop-color="#1ed2eb" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#1ed2eb" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="900" height="330" rx="20" /></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="330" fill="#06070b" />
+    <rect width="900" height="330" fill="url(#glowA)" />
+    <rect width="900" height="330" fill="url(#glowB)" />
+    <g stroke="#ffffff" stroke-opacity="0.028">
+      <path d="M0 0V330" /><path d="M56 0V330" /><path d="M112 0V330" /><path d="M168 0V330" /><path d="M224 0V330" /><path d="M280 0V330" /><path d="M336 0V330" /><path d="M392 0V330" /><path d="M448 0V330" /><path d="M504 0V330" /><path d="M560 0V330" /><path d="M616 0V330" /><path d="M672 0V330" /><path d="M728 0V330" /><path d="M784 0V330" /><path d="M840 0V330" /><path d="M896 0V330" /><path d="M952 0V330" />
+      <path d="M0 0H900" /><path d="M0 56H900" /><path d="M0 112H900" /><path d="M0 168H900" /><path d="M0 224H900" /><path d="M0 280H900" /><path d="M0 336H900" />
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="329" rx="19.5" fill="none"
+        stroke="#ffffff" stroke-opacity="0.09" />
+
+  <text x="24" y="32" fill="#eef0f7" font-size="13" font-weight="600" letter-spacing="3.4"
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">GAME STATS</text>
+  <text x="876" y="32" text-anchor="end" fill="#6f7789" font-size="10.5"
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">@Moty2111 · live since 2024</text>
+
+  
+    <g>
+      <rect x="24" y="60" width="274.6666666666667" height="224" rx="16"
+            fill="#0b0e16" stroke="#ffffff" stroke-opacity="0.07" />
+      <rect x="24" y="60" width="274.6666666666667" height="1" fill="#6fe7f5" opacity="0.55" />
+      <text x="42" y="86" fill="#7e879b" font-size="10.5"
+            font-family="ui-monospace, 'SF Mono', Consolas, monospace" letter-spacing="2.2">RACE</text>
+    </g>
+  <text x="42" y="136" fill="url(#accent)" font-size="38" font-weight="700"
+        font-family="'Segoe UI', system-ui, sans-serif">86%</text>
+  <text x="42" y="158" fill="#7e879b" font-size="11"
+        font-family="'Segoe UI', system-ui, sans-serif">429 of 500 commits in the last year</text>
+
+  <rect x="42" y="186" width="238.66666666666669" height="8" rx="4" fill="#171c29" />
+  <rect x="42" y="186" width="205.25333333333336" height="8" rx="4" fill="url(#track)" />
+  <g transform="translate(247.25333333333336, 190)">
+    <path d="M-13 -5 L-2 -5 L3 0 L-2 5 L-13 5 Z" fill="#eef0f7" />
+    <circle cx="-8" cy="6" r="2.6" fill="#06070b" stroke="#eef0f7" stroke-width="1.4" />
+    <circle cx="0" cy="6" r="2.6" fill="#06070b" stroke="#eef0f7" stroke-width="1.4" />
+  </g>
+  <g fill="#6f7789" font-size="10.5" font-family="'Segoe UI', system-ui, sans-serif">
+    <text x="42" y="218">Streak</text>
+    <text x="138" y="218">Best day</text>
+    <text x="228" y="218">Active</text>
+  </g>
+  <g fill="#d8dce8" font-size="15" font-weight="600" font-family="'Segoe UI', system-ui, sans-serif">
+    <text x="42" y="240">1<tspan font-size="10" font-weight="400" fill="#6f7789"> d</tspan></text>
+    <text x="138" y="240">74<tspan font-size="10" font-weight="400" fill="#6f7789"> c</tspan></text>
+    <text x="228" y="240">84<tspan font-size="10" font-weight="400" fill="#6f7789"> d</tspan></text>
+  </g>
+  <text x="42" y="264" fill="#5b6276" font-size="9.5"
+        font-family="'Segoe UI', system-ui, sans-serif">Updated by GitHub Actions every day</text>
+
+  
+    <g>
+      <rect x="312.6666666666667" y="60" width="274.6666666666667" height="224" rx="16"
+            fill="#0b0e16" stroke="#ffffff" stroke-opacity="0.07" />
+      <rect x="312.6666666666667" y="60" width="274.6666666666667" height="1" fill="#b69bff" opacity="0.55" />
+      <text x="330.6666666666667" y="86" fill="#7e879b" font-size="10.5"
+            font-family="ui-monospace, 'SF Mono', Consolas, monospace" letter-spacing="2.2">CHARACTER</text>
+    </g>
+  <text x="330.6666666666667" y="118" fill="#7e879b" font-size="10"
+        font-family="'Segoe UI', system-ui, sans-serif">LEVEL</text>
+  <text x="330.6666666666667" y="156" fill="#eef0f7" font-size="30" font-weight="700"
+        font-family="'Segoe UI', system-ui, sans-serif">11</text>
+  <rect x="374.6666666666667" y="130" width="76" height="20" rx="10"
+        fill="#171c29" stroke="#b69bff" stroke-opacity="0.45" />
+  <text x="412.6666666666667" y="144" text-anchor="middle" fill="#b69bff" font-size="9.5"
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace" letter-spacing="1">FULLSTACK</text>
+
+  
+  <text x="330.6666666666667" y="182" fill="#8b93a7" font-size="9.5" letter-spacing="1"
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">STR</text>
+  <rect x="368.6666666666667" y="174" width="94" height="6" rx="3" fill="#171c29" />
+  <rect x="368.6666666666667" y="174" width="90.20202020202021" height="6" rx="3" fill="url(#accent)" opacity="0.9" />
+  <text x="486.6666666666667" y="181" fill="#c7ccda" font-size="10"
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">95</text>
+  <text x="330.6666666666667" y="204" fill="#8b93a7" font-size="9.5" letter-spacing="1"
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">AGI</text>
+  <rect x="368.6666666666667" y="196" width="94" height="6" rx="3" fill="#171c29" />
+  <rect x="368.6666666666667" y="196" width="10.444444444444445" height="6" rx="3" fill="url(#accent)" opacity="0.9" />
+  <text x="486.6666666666667" y="203" fill="#c7ccda" font-size="10"
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">11</text>
+  <text x="330.6666666666667" y="226" fill="#8b93a7" font-size="9.5" letter-spacing="1"
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">INT</text>
+  <rect x="368.6666666666667" y="218" width="94" height="6" rx="3" fill="#171c29" />
+  <rect x="368.6666666666667" y="218" width="81.65656565656566" height="6" rx="3" fill="url(#accent)" opacity="0.9" />
+  <text x="486.6666666666667" y="225" fill="#c7ccda" font-size="10"
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">86</text>
+  <text x="330.6666666666667" y="248" fill="#8b93a7" font-size="9.5" letter-spacing="1"
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">CHA</text>
+  <rect x="368.6666666666667" y="240" width="94" height="6" rx="3" fill="#171c29" />
+  <rect x="368.6666666666667" y="240" width="24.68686868686869" height="6" rx="3" fill="url(#accent)" opacity="0.9" />
+  <text x="486.6666666666667" y="247" fill="#c7ccda" font-size="10"
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">26</text>
+
+  <text x="330.6666666666667" y="268" fill="#5b6276" font-size="9.5"
+        font-family="'Segoe UI', system-ui, sans-serif">XP 29 / 50 · next level 12</text>
+
+  
+    <g>
+      <rect x="601.3333333333334" y="60" width="274.6666666666667" height="224" rx="16"
+            fill="#0b0e16" stroke="#ffffff" stroke-opacity="0.07" />
+      <rect x="601.3333333333334" y="60" width="274.6666666666667" height="1" fill="#4ade80" opacity="0.55" />
+      <text x="619.3333333333334" y="86" fill="#7e879b" font-size="10.5"
+            font-family="ui-monospace, 'SF Mono', Consolas, monospace" letter-spacing="2.2">TERMINAL</text>
+    </g>
+  <g font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="11">
+    <text x="619.3333333333334" y="122" fill="#4ade80">$ gh stats --user</text>
+    <text x="619.3333333333334" y="148" fill="#8b93a7">repos<tspan fill="#eef0f7">      19</tspan></text>
+    <text x="619.3333333333334" y="168" fill="#8b93a7">stars<tspan fill="#eef0f7">      0</tspan></text>
+    <text x="619.3333333333334" y="188" fill="#8b93a7">followers<tspan fill="#eef0f7">  2</tspan></text>
+    <text x="619.3333333333334" y="208" fill="#8b93a7">languages<tspan fill="#eef0f7">  6</tspan></text>
+    <text x="619.3333333333334" y="232" fill="#8b93a7">last push<tspan fill="#eef0f7">  yesterday</tspan></text>
+    <text x="619.3333333333334" y="258" fill="#4ade80">&gt; status: online</text>
+    <rect x="747.3333333333334" y="248" width="7" height="11" fill="#4ade80">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1.4s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>

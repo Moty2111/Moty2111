@@ -1,0 +1,59 @@
+name: 🎮 Game Stats
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # once a day, off the top of the hour
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/game-stats.mjs"
+      - ".github/workflows/game-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate dashboard
+        run: node scripts/game-stats.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RACE_GOAL: "500"
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/game-stats.svg
+          if git diff --cached --quiet; then
+            echo "No changes — stats are up to date."
+            exit 0
+          fi
+          git commit -m "🎮 Update game stats"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin "${{ github.ref_name }}" && git push origin "${{ github.ref_name }}"; then
+              echo "Pushed on attempt $i."
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Could not push after 5 attempts." >&2
+          exit 1

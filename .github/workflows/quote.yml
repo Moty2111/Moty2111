@@ -1,30 +1,54 @@
-name: 💬 Generate Beautiful Quote
+name: 💬 Quote
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"   # каждые 12 часов
+  # The quote block is not shown on the profile right now, so the schedule is
+  # paused. Run it manually when you decide to bring the block back.
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Install dependencies
         run: pip install svgwrite
+
       - name: Generate quote SVG
         run: python generate_quote.py
+
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/quote.svg
-          git diff --cached --quiet || (git commit -m "💬 Update beautiful quote" && git push)
+          if git diff --cached --quiet; then
+            echo "No changes — quote is up to date."
+            exit 0
+          fi
+          git commit -m "💬 Update quote"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin "${{ github.ref_name }}" && git push origin "${{ github.ref_name }}"; then
+              echo "Pushed on attempt $i."
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Could not push after 5 attempts." >&2
+          exit 1

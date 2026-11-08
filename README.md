@@ -76,10 +76,10 @@
 ## 🎮 Игровая статистика
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/race-stats.svg?v=2" width="32%" alt="Гоночный прогресс" />
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/rpg-stats.svg?v=2" width="32%" alt="RPG-статы" />
-  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/crt-stats.svg?v=2" width="32%" alt="CRT-эффект" />
+  <img src="https://raw.githubusercontent.com/Moty2111/Moty2111/main/assets/game-stats.svg?v=3" width="100%" alt="Игровая статистика: прогресс года, характеристики и живые цифры GitHub" />
 </div>
+
+<div align="center"><sub>Один дашборд на реальных данных GitHub API: годовой прогресс коммитов, стрик, уровни и характеристики. Собирается каждый день через GitHub Actions.</sub></div>
 
 ## 🐍 Мои коммиты
 
