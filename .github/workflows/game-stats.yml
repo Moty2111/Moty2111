@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-assets
+  group: ${{ github.workflow }}
   cancel-in-progress: false
 
 jobs:
