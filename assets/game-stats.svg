@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img"
-     aria-label="Game stats: 429 commits this year, level 11, 19 repositories">
+     aria-label="Game stats: 435 commits this year, level 11, 19 repositories">
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#b69bff" />
@@ -48,13 +48,13 @@
             font-family="ui-monospace, 'SF Mono', Consolas, monospace" letter-spacing="2.2">RACE</text>
     </g>
   <text x="42" y="136" fill="url(#accent)" font-size="38" font-weight="700"
-        font-family="'Segoe UI', system-ui, sans-serif">86%</text>
+        font-family="'Segoe UI', system-ui, sans-serif">87%</text>
   <text x="42" y="158" fill="#7e879b" font-size="11"
-        font-family="'Segoe UI', system-ui, sans-serif">429 of 500 commits in the last year</text>
+        font-family="'Segoe UI', system-ui, sans-serif">435 of 500 commits in the last year</text>
 
   <rect x="42" y="186" width="238.66666666666669" height="8" rx="4" fill="#171c29" />
-  <rect x="42" y="186" width="205.25333333333336" height="8" rx="4" fill="url(#track)" />
-  <g transform="translate(247.25333333333336, 190)">
+  <rect x="42" y="186" width="207.64" height="8" rx="4" fill="url(#track)" />
+  <g transform="translate(249.64, 190)">
     <path d="M-13 -5 L-2 -5 L3 0 L-2 5 L-13 5 Z" fill="#eef0f7" />
     <circle cx="-8" cy="6" r="2.6" fill="#06070b" stroke="#eef0f7" stroke-width="1.4" />
     <circle cx="0" cy="6" r="2.6" fill="#06070b" stroke="#eef0f7" stroke-width="1.4" />
@@ -65,7 +65,7 @@
     <text x="228" y="218">Active</text>
   </g>
   <g fill="#d8dce8" font-size="15" font-weight="600" font-family="'Segoe UI', system-ui, sans-serif">
-    <text x="42" y="240">1<tspan font-size="10" font-weight="400" fill="#6f7789"> d</tspan></text>
+    <text x="42" y="240">0<tspan font-size="10" font-weight="400" fill="#6f7789"> d</tspan></text>
     <text x="138" y="240">74<tspan font-size="10" font-weight="400" fill="#6f7789"> c</tspan></text>
     <text x="228" y="240">87<tspan font-size="10" font-weight="400" fill="#6f7789"> d</tspan></text>
   </g>
@@ -93,15 +93,15 @@
   <text x="330.6666666666667" y="182" fill="#8b93a7" font-size="9.5" letter-spacing="1"
         font-family="ui-monospace, 'SF Mono', Consolas, monospace">STR</text>
   <rect x="368.6666666666667" y="174" width="94" height="6" rx="3" fill="#171c29" />
-  <rect x="368.6666666666667" y="174" width="90.20202020202021" height="6" rx="3" fill="url(#accent)" opacity="0.9" />
+  <rect x="368.6666666666667" y="174" width="91.15151515151516" height="6" rx="3" fill="url(#accent)" opacity="0.9" />
   <text x="486.6666666666667" y="181" fill="#c7ccda" font-size="10"
-        font-family="ui-monospace, 'SF Mono', Consolas, monospace">95</text>
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">96</text>
   <text x="330.6666666666667" y="204" fill="#8b93a7" font-size="9.5" letter-spacing="1"
         font-family="ui-monospace, 'SF Mono', Consolas, monospace">AGI</text>
   <rect x="368.6666666666667" y="196" width="94" height="6" rx="3" fill="#171c29" />
-  <rect x="368.6666666666667" y="196" width="10.444444444444445" height="6" rx="3" fill="url(#accent)" opacity="0.9" />
+  <rect x="368.6666666666667" y="196" width="5.696969696969697" height="6" rx="3" fill="url(#accent)" opacity="0.9" />
   <text x="486.6666666666667" y="203" fill="#c7ccda" font-size="10"
-        font-family="ui-monospace, 'SF Mono', Consolas, monospace">11</text>
+        font-family="ui-monospace, 'SF Mono', Consolas, monospace">6</text>
   <text x="330.6666666666667" y="226" fill="#8b93a7" font-size="9.5" letter-spacing="1"
         font-family="ui-monospace, 'SF Mono', Consolas, monospace">INT</text>
   <rect x="368.6666666666667" y="218" width="94" height="6" rx="3" fill="#171c29" />
@@ -116,7 +116,7 @@
         font-family="ui-monospace, 'SF Mono', Consolas, monospace">26</text>
 
   <text x="330.6666666666667" y="268" fill="#5b6276" font-size="9.5"
-        font-family="'Segoe UI', system-ui, sans-serif">XP 29 / 50 · next level 12</text>
+        font-family="'Segoe UI', system-ui, sans-serif">XP 35 / 50 · next level 12</text>
 
   
     <g>
@@ -132,7 +132,7 @@
     <text x="619.3333333333334" y="168" fill="#8b93a7">stars<tspan fill="#eef0f7">      0</tspan></text>
     <text x="619.3333333333334" y="188" fill="#8b93a7">followers<tspan fill="#eef0f7">  2</tspan></text>
     <text x="619.3333333333334" y="208" fill="#8b93a7">languages<tspan fill="#eef0f7">  6</tspan></text>
-    <text x="619.3333333333334" y="232" fill="#8b93a7">last push<tspan fill="#eef0f7">  yesterday</tspan></text>
+    <text x="619.3333333333334" y="232" fill="#8b93a7">last push<tspan fill="#eef0f7">  2 days ago</tspan></text>
     <text x="619.3333333333334" y="258" fill="#4ade80">&gt; status: online</text>
     <rect x="747.3333333333334" y="248" width="7" height="11" fill="#4ade80">
       <animate attributeName="opacity" values="1;1;0;0" dur="1.4s" repeatCount="indefinite" />
