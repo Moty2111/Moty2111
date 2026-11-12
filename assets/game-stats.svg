@@ -132,7 +132,7 @@
     <text x="619.3333333333334" y="168" fill="#8b93a7">stars<tspan fill="#eef0f7">      0</tspan></text>
     <text x="619.3333333333334" y="188" fill="#8b93a7">followers<tspan fill="#eef0f7">  2</tspan></text>
     <text x="619.3333333333334" y="208" fill="#8b93a7">languages<tspan fill="#eef0f7">  6</tspan></text>
-    <text x="619.3333333333334" y="232" fill="#8b93a7">last push<tspan fill="#eef0f7">  3 days ago</tspan></text>
+    <text x="619.3333333333334" y="232" fill="#8b93a7">last push<tspan fill="#eef0f7">  5 days ago</tspan></text>
     <text x="619.3333333333334" y="258" fill="#4ade80">&gt; status: online</text>
     <rect x="747.3333333333334" y="248" width="7" height="11" fill="#4ade80">
       <animate attributeName="opacity" values="1;1;0;0" dur="1.4s" repeatCount="indefinite" />
